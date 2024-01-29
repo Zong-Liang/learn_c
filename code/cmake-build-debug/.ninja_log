@@ -12,3 +12,15 @@
 201	406	7282426007531731	03_relational_operators.exe	ca7fe27d42d26bce
 2	140	7282452015375692	CMakeFiles/01_char_io.dir/chapter_05/01_char_io.c.obj	c4d791038bbd8b24
 141	322	7282452017120667	01_char_io.exe	3c8e72f0348d2bc2
+1	456	7282462404944465	CMakeFiles/04_logical_operators.dir/chapter_04/04_logical_operators.c.obj	212b9a2507f4386d
+458	885	7282462409353203	04_logical_operators.exe	2fcbf13384250fcd
+0	148	7282462542684345	CMakeFiles/05_comma_operator.dir/chapter_04/05_comma_operator.c.obj	831337b3466d4e50
+149	417	7282462545317357	05_comma_operator.exe	5004dbc2994c4da1
+0	176	7282462671301025	CMakeFiles/06_compound_operator.dir/chapter_04/06_compound_operator.c.obj	845ffa413e13cc76
+177	449	7282462673983914	06_compound_operator.exe	19952420056dc698
+1	146	7282463070910495	CMakeFiles/02_string_io.dir/chapter_05/02_string_io.c.obj	82012937bcf57a29
+147	388	7282463073214385	02_string_io.exe	778a7e369da89695
+0	147	7282463226250007	CMakeFiles/03_format_output.dir/chapter_05/03_format_output.c.obj	3fb2a32428876cf7
+148	512	7282463229744852	03_format_output.exe	fbda9bcfcda3ee64
+0	145	7282463311961367	CMakeFiles/04_format_input.dir/chapter_05/04_format_input.c.obj	36d93bc6316f744d
+146	380	7282463314126939	04_format_input.exe	fb29e1a4cee73a06
