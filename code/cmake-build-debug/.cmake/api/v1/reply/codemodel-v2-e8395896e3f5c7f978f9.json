@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "code",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01_auto_type_conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_auto_type_conversion-Debug-1e5333a9a16ee42e8254.json",
+					"name" : "01_auto_type_conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_char_io::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_char_io-Debug-0618bc8717fd7bcca0c9.json",
+					"name" : "01_char_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_hello_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_hello_c-Debug-cd9d2983ad1ed334eb65.json",
+					"name" : "01_hello_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_print_datatype_scope::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_print_datatype_scope-Debug-f40c7a717b8e5b053000.json",
+					"name" : "01_print_datatype_scope",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_arithmetic_operators::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_arithmetic_operators-Debug-0b450f405caddd1a5dfa.json",
+					"name" : "02_arithmetic_operators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_mixed_operations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_mixed_operations-Debug-dcd6f6950f7c50073216.json",
+					"name" : "02_mixed_operations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_string_io::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_string_io-Debug-4a8f6fae3f72df12db52.json",
+					"name" : "02_string_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_format_output::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_format_output-Debug-e3716115e53376f5fd14.json",
+					"name" : "03_format_output",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_relational_operators::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_relational_operators-Debug-37f0e50f0cb6583f2091.json",
+					"name" : "03_relational_operators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_format_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_format_input-Debug-a7e3e96f23533e28d7a9.json",
+					"name" : "04_format_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_logical_operators::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_logical_operators-Debug-4a7b940b776a92b97e74.json",
+					"name" : "04_logical_operators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_comma_operator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_comma_operator-Debug-7aeeda11958364e34a50.json",
+					"name" : "05_comma_operator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_compound_operator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_compound_operator-Debug-f09d14a5ca6043eb29d5.json",
+					"name" : "06_compound_operator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Desktop/zongliang/learn_c/code/cmake-build-debug",
+		"source" : "D:/Desktop/zongliang/learn_c/code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,14 @@
+# ninja log v5
+18	504	7282458105621887	build.ninja	74972126866214bf
+140	418	7282091522506255	01_print_datatype_scope.exe	45f23163039f9c61
+3	186	7282095202255947	CMakeFiles/02_mixed_operations.dir/chapter_03/02_mixed_operations.c.obj	4b7f0e13a2bc1de9
+187	420	7282095204609913	02_mixed_operations.exe	579b2e05b4edba20
+0	167	7282091428070002	CMakeFiles/01_hello_c.dir/chapter_01/01_hello_c.c.obj	1eea1cbe7d315cfd
+1	139	7282091519750244	CMakeFiles/01_print_datatype_scope.dir/chapter_03/01_print_datatype_scope.c.obj	981fb7436032a6f4
+168	381	7282091430154423	01_hello_c.exe	141c1bd051b9e900
+4	168	7282420368516057	CMakeFiles/02_arithmetic_operators.dir/chapter_04/02_arithmetic_operators.c.obj	f9912ce34d6d7d2c
+169	371	7282420370470404	02_arithmetic_operators.exe	3cfed64c8abec39e
+4	200	7282426005537055	CMakeFiles/03_relational_operators.dir/chapter_04/03_relational_operators.c.obj	6fe064967cfe5d58
+201	406	7282426007531731	03_relational_operators.exe	ca7fe27d42d26bce
+2	140	7282452015375692	CMakeFiles/01_char_io.dir/chapter_05/01_char_io.c.obj	c4d791038bbd8b24
+141	322	7282452017120667	01_char_io.exe	3c8e72f0348d2bc2

@@ -1,0 +1,15 @@
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_hello_c.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_print_datatype_scope.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_mixed_operations.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_auto_type_conversion.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_arithmetic_operators.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/03_relational_operators.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/04_logical_operators.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/05_comma_operator.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/06_compound_operator.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_char_io.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_string_io.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/03_format_output.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/04_format_input.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
