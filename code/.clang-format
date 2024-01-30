@@ -1,0 +1,131 @@
+# Generated from CLion C/C++ Code Style settings
+# 基于LLVM代码样式
+BasedOnStyle: LLVM
+# 这一行指定了访问修饰符（如public、private、protected）相对于类成员的缩进偏移量。-1表示在访问修饰符前面不缩进
+AccessModifierOffset: -1
+# 在打开的括号后对齐相关的内容
+AlignAfterOpenBracket: Align
+# 连续赋值语句的对齐方式
+AlignConsecutiveAssignments: None
+# 操作数（如运算符）的对齐方式
+AlignOperands: DontAlign
+# 是否允许将函数或方法的参数全部放在下一行
+AllowAllArgumentsOnNextLine: false
+# 是否允许将构造函数的初始化列表放在下一行
+AllowAllConstructorInitializersOnNextLine: false
+# 是否允许将声明的所有参数放在下一行
+AllowAllParametersOfDeclarationOnNextLine: false
+# 是否允许将短的代码块放在单行上
+AllowShortBlocksOnASingleLine: Always
+# 是否允许将switch语句中的case标签放在单行上
+AllowShortCaseLabelsOnASingleLine: true
+# 是否允许将短函数放在单行上
+AllowShortFunctionsOnASingleLine: All
+# 是否允许将短的if语句放在单行上
+AllowShortIfStatementsOnASingleLine: Always
+# 是否允许将短的Lambda函数放在单行上
+AllowShortLambdasOnASingleLine: All
+# 是否允许将短循环放在单行上
+AllowShortLoopsOnASingleLine: true
+# 在返回类型后始终换行的情况
+AlwaysBreakAfterReturnType: None
+# 始终在模板声明后换行的情况
+AlwaysBreakTemplateDeclarations: Yes
+# 大括号{的放置方式
+BreakBeforeBraces: Custom
+# 开始定义大括号包装的配置选项，是自定义配置
+BraceWrapping:
+  # case标签后面的大括号不换行
+  AfterCaseLabel: false
+  # 类定义后面的大括号不换行
+  AfterClass: false
+  # 控制语句后的大括号从不换行
+  AfterControlStatement: Never
+  # 枚举定义后的大括号不换行
+  AfterEnum: false
+  # 函数定义后的大括号不换行
+  AfterFunction: false
+  # 命名空间定义后的大括号不换行
+  AfterNamespace: false
+  # 联合体定义后的大括号不换行
+  AfterUnion: false
+  # catch语句前的大括号不换行
+  BeforeCatch: false
+  # else语句前的大括号不换行
+  BeforeElse: false
+  # 不缩进大括号内部
+  IndentBraces: false
+  # 空函数体的大括号不换行
+  SplitEmptyFunction: false
+  # 空记录（类、结构体等）的大括号不换行
+  SplitEmptyRecord: false
+# 在非赋值二进制操作符（如加法、减法等）之前换行
+BreakBeforeBinaryOperators: NonAssignment
+# 在条件运算符（? :）之前换行，始终换行
+BreakBeforeTernaryOperators: true
+# 在构造函数的成员初始化列表之前换行，并且在冒号之前换行
+BreakConstructorInitializers: BeforeColon
+# 在继承列表的冒号之前换行
+BreakInheritanceList: BeforeColon
+# 每行的最大字符数限制，0表示没有限制
+ColumnLimit: 0
+# 是否压缩命名空间（namespace）定义
+CompactNamespaces: false
+# 续行（换行后的行）的缩进宽度
+ContinuationIndentWidth: 4
+# 是否对switch语句中的case标签进行缩进
+IndentCaseLabels: true
+# 预处理指令的缩进方式
+IndentPPDirectives: None
+# 普通缩进的宽度
+IndentWidth: 4
+# 是否在代码块的开始处保留空行
+KeepEmptyLinesAtTheStartOfBlocks: true
+# 在代码中连续保留的最大空行数
+MaxEmptyLinesToKeep: 1
+# 命名空间的缩进方式
+NamespaceIndentation: None
+# 在Objective-C的属性声明后是否添加空格
+ObjCSpaceAfterProperty: false
+# 在Objective-C的协议列表前是否添加空格
+ObjCSpaceBeforeProtocolList: false
+# 指针的对齐方式
+PointerAlignment: Right
+# 是否重新格式化注释
+ReflowComments: false
+# C风格类型转换后是否添加空格
+SpaceAfterCStyleCast: false
+# 逻辑非（!）后是否添加空格
+SpaceAfterLogicalNot: false
+# 模板关键字（template）后是否添加空格
+SpaceAfterTemplateKeyword: false
+# 赋值操作符（如=, +=, -=等）前是否添加空格
+SpaceBeforeAssignmentOperators: true
+# C++11的初始化列表（{}）前是否添加空格
+SpaceBeforeCpp11BracedList: false
+# 构造函数初始化列表的冒号前是否添加空格
+SpaceBeforeCtorInitializerColon: true
+# 继承列表的冒号前是否添加空格
+SpaceBeforeInheritanceColon: true
+# 在括号前是否添加空格，对于控制语句（如if, for, while等）添加空格
+SpaceBeforeParens: ControlStatements
+# 范围基本的for循环的冒号前是否添加空格
+SpaceBeforeRangeBasedForLoopColon: true
+# 空括号内是否添加空格
+SpaceInEmptyParentheses: false
+# 在注释之前的空格数
+SpacesBeforeTrailingComments: 0
+# 尖括号< >内是否添加空格
+SpacesInAngles: false
+# C风格类型转换的括号内是否添加空格
+SpacesInCStyleCastParentheses: false
+# 容器（如数组、列表等）的大括号内是否添加空格
+SpacesInContainerLiterals: false
+# 括号()内是否添加空格
+SpacesInParentheses: false
+# 方括号[]内是否添加空格
+SpacesInSquareBrackets: false
+# 指定制表符的宽度
+TabWidth: 4
+# 是否使用制表符进行缩进
+UseTab: Never
