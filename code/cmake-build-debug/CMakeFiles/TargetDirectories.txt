@@ -11,5 +11,13 @@ D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_char_io.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_string_io.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/03_format_output.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/04_format_input.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_constant.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/03_variable.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/04_auto_modifier.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/05_static_modifier.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/06_register_modifier.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/07_extern_modifier_01.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/08_extern_modifier_02.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/07_conditional_operators.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

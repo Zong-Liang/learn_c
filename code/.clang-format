@@ -51,8 +51,8 @@ BraceWrapping:
   AfterUnion: false
   # catch语句前的大括号不换行
   BeforeCatch: false
-  # else语句前的大括号不换行
-  BeforeElse: false
+  # else语句前的大括号换行
+  BeforeElse: true
   # 不缩进大括号内部
   IndentBraces: false
   # 空函数体的大括号不换行

@@ -1,4 +1,4 @@
-# 06_if_else语句和switch语句的区别
+# 05_if_else语句和switch语句的区别
 
 `if…else`语句和`switch`语句都可根据不同的情况检验条件，并做出相应的判断。那么`if…else`语句和`switch`语句有什么区别呢？
 
