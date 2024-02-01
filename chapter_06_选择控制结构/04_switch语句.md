@@ -38,6 +38,7 @@ switch(表达式){
 switch(表达式){
     case 情况1:
         语句;
+        break;
     case 情况2:
     case 情况3:
         语句;

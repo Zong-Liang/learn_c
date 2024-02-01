@@ -19,5 +19,11 @@ D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/06_register_modif
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/07_extern_modifier_01.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/08_extern_modifier_02.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/07_conditional_operators.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_if_statement.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_switch_statement.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_while_loop.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_do_while_loop.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/03_for_loop.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/04_nested_loop.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

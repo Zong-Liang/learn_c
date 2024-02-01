@@ -44,3 +44,13 @@ add_executable(07_extern_modifier_01 chapter_03/07_extern_modifier_01.c)
 add_executable(08_extern_modifier_02 chapter_03/08_extern_modifier_02.c chapter_03/07_extern_modifier_01.c)
 
 add_executable(07_conditional_operators chapter_04/07_conditional_operators.c)
+
+add_executable(01_if_statement chapter_06/01_if_statement.c)
+
+add_executable(02_switch_statement chapter_06/02_switch_statement.c)
+
+add_executable(01_while_loop chapter_07/01_while_loop.c)
+add_executable(02_do_while_loop chapter_07/02_do_while_loop.c)
+add_executable(03_for_loop chapter_07/03_for_loop.c)
+
+add_executable(04_nested_loop chapter_07/04_nested_loop.c)

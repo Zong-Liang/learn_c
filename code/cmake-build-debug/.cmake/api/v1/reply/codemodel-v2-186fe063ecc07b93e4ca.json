@@ -35,7 +35,13 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
 					]
 				}
 			],
@@ -70,7 +76,13 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
 					]
 				}
 			],
@@ -99,9 +111,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "01_if_statement::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_if_statement-Debug-8454da2e0de5f5e90ca3.json",
+					"name" : "01_if_statement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "01_print_datatype_scope::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01_print_datatype_scope-Debug-93ae8f82c19081d3be81.json",
 					"name" : "01_print_datatype_scope",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_while_loop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_while_loop-Debug-2c50bdd4e30a1c5adf5d.json",
+					"name" : "01_while_loop",
 					"projectIndex" : 0
 				},
 				{
@@ -120,6 +146,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "02_do_while_loop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_do_while_loop-Debug-2fc2a613da4c31776b56.json",
+					"name" : "02_do_while_loop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "02_mixed_operations::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02_mixed_operations-Debug-71bda5d0db9f688a3023.json",
 					"name" : "02_mixed_operations",
@@ -130,6 +163,20 @@
 					"id" : "02_string_io::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02_string_io-Debug-4a8f6fae3f72df12db52.json",
 					"name" : "02_string_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_switch_statement::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_switch_statement-Debug-351a5b4a495b9562bb12.json",
+					"name" : "02_switch_statement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_for_loop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_for_loop-Debug-47e152108faa29ff21de.json",
+					"name" : "03_for_loop",
 					"projectIndex" : 0
 				},
 				{
@@ -172,6 +219,13 @@
 					"id" : "04_logical_operators::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-04_logical_operators-Debug-4a7b940b776a92b97e74.json",
 					"name" : "04_logical_operators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_nested_loop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_nested_loop-Debug-b02222d37c8534c76c45.json",
+					"name" : "04_nested_loop",
 					"projectIndex" : 0
 				},
 				{

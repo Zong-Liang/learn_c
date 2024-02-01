@@ -739,6 +739,204 @@ build 07_conditional_operators.exe: C_EXECUTABLE_LINKER__07_conditional_operator
   TARGET_IMPLIB = lib07_conditional_operators.dll.a
   TARGET_PDB = 07_conditional_operators.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_if_statement
+
+
+#############################################
+# Order-only phony target for 01_if_statement
+
+build cmake_object_order_depends_target_01_if_statement: phony || CMakeFiles/01_if_statement.dir
+
+build CMakeFiles/01_if_statement.dir/chapter_06/01_if_statement.c.obj: C_COMPILER__01_if_statement_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_06/01_if_statement.c || cmake_object_order_depends_target_01_if_statement
+  DEP_FILE = CMakeFiles\01_if_statement.dir\chapter_06\01_if_statement.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_if_statement.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_if_statement.dir\chapter_06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_if_statement
+
+
+#############################################
+# Link the executable 01_if_statement.exe
+
+build 01_if_statement.exe: C_EXECUTABLE_LINKER__01_if_statement_Debug CMakeFiles/01_if_statement.dir/chapter_06/01_if_statement.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_if_statement.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_if_statement.exe
+  TARGET_IMPLIB = lib01_if_statement.dll.a
+  TARGET_PDB = 01_if_statement.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_switch_statement
+
+
+#############################################
+# Order-only phony target for 02_switch_statement
+
+build cmake_object_order_depends_target_02_switch_statement: phony || CMakeFiles/02_switch_statement.dir
+
+build CMakeFiles/02_switch_statement.dir/chapter_06/02_switch_statement.c.obj: C_COMPILER__02_switch_statement_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_06/02_switch_statement.c || cmake_object_order_depends_target_02_switch_statement
+  DEP_FILE = CMakeFiles\02_switch_statement.dir\chapter_06\02_switch_statement.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_switch_statement.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_switch_statement.dir\chapter_06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_switch_statement
+
+
+#############################################
+# Link the executable 02_switch_statement.exe
+
+build 02_switch_statement.exe: C_EXECUTABLE_LINKER__02_switch_statement_Debug CMakeFiles/02_switch_statement.dir/chapter_06/02_switch_statement.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_switch_statement.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_switch_statement.exe
+  TARGET_IMPLIB = lib02_switch_statement.dll.a
+  TARGET_PDB = 02_switch_statement.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_while_loop
+
+
+#############################################
+# Order-only phony target for 01_while_loop
+
+build cmake_object_order_depends_target_01_while_loop: phony || CMakeFiles/01_while_loop.dir
+
+build CMakeFiles/01_while_loop.dir/chapter_07/01_while_loop.c.obj: C_COMPILER__01_while_loop_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_07/01_while_loop.c || cmake_object_order_depends_target_01_while_loop
+  DEP_FILE = CMakeFiles\01_while_loop.dir\chapter_07\01_while_loop.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_while_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_while_loop.dir\chapter_07
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_while_loop
+
+
+#############################################
+# Link the executable 01_while_loop.exe
+
+build 01_while_loop.exe: C_EXECUTABLE_LINKER__01_while_loop_Debug CMakeFiles/01_while_loop.dir/chapter_07/01_while_loop.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_while_loop.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_while_loop.exe
+  TARGET_IMPLIB = lib01_while_loop.dll.a
+  TARGET_PDB = 01_while_loop.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_do_while_loop
+
+
+#############################################
+# Order-only phony target for 02_do_while_loop
+
+build cmake_object_order_depends_target_02_do_while_loop: phony || CMakeFiles/02_do_while_loop.dir
+
+build CMakeFiles/02_do_while_loop.dir/chapter_07/02_do_while_loop.c.obj: C_COMPILER__02_do_while_loop_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_07/02_do_while_loop.c || cmake_object_order_depends_target_02_do_while_loop
+  DEP_FILE = CMakeFiles\02_do_while_loop.dir\chapter_07\02_do_while_loop.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_do_while_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_do_while_loop.dir\chapter_07
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_do_while_loop
+
+
+#############################################
+# Link the executable 02_do_while_loop.exe
+
+build 02_do_while_loop.exe: C_EXECUTABLE_LINKER__02_do_while_loop_Debug CMakeFiles/02_do_while_loop.dir/chapter_07/02_do_while_loop.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_do_while_loop.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_do_while_loop.exe
+  TARGET_IMPLIB = lib02_do_while_loop.dll.a
+  TARGET_PDB = 02_do_while_loop.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_for_loop
+
+
+#############################################
+# Order-only phony target for 03_for_loop
+
+build cmake_object_order_depends_target_03_for_loop: phony || CMakeFiles/03_for_loop.dir
+
+build CMakeFiles/03_for_loop.dir/chapter_07/03_for_loop.c.obj: C_COMPILER__03_for_loop_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_07/03_for_loop.c || cmake_object_order_depends_target_03_for_loop
+  DEP_FILE = CMakeFiles\03_for_loop.dir\chapter_07\03_for_loop.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_for_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_for_loop.dir\chapter_07
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_for_loop
+
+
+#############################################
+# Link the executable 03_for_loop.exe
+
+build 03_for_loop.exe: C_EXECUTABLE_LINKER__03_for_loop_Debug CMakeFiles/03_for_loop.dir/chapter_07/03_for_loop.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_for_loop.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_for_loop.exe
+  TARGET_IMPLIB = lib03_for_loop.dll.a
+  TARGET_PDB = 03_for_loop.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_nested_loop
+
+
+#############################################
+# Order-only phony target for 04_nested_loop
+
+build cmake_object_order_depends_target_04_nested_loop: phony || CMakeFiles/04_nested_loop.dir
+
+build CMakeFiles/04_nested_loop.dir/chapter_07/04_nested_loop.c.obj: C_COMPILER__04_nested_loop_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_07/04_nested_loop.c || cmake_object_order_depends_target_04_nested_loop
+  DEP_FILE = CMakeFiles\04_nested_loop.dir\chapter_07\04_nested_loop.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_nested_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_nested_loop.dir\chapter_07
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_nested_loop
+
+
+#############################################
+# Link the executable 04_nested_loop.exe
+
+build 04_nested_loop.exe: C_EXECUTABLE_LINKER__04_nested_loop_Debug CMakeFiles/04_nested_loop.dir/chapter_07/04_nested_loop.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04_nested_loop.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_nested_loop.exe
+  TARGET_IMPLIB = lib04_nested_loop.dll.a
+  TARGET_PDB = 04_nested_loop.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -771,15 +969,25 @@ build 01_char_io: phony 01_char_io.exe
 
 build 01_hello_c: phony 01_hello_c.exe
 
+build 01_if_statement: phony 01_if_statement.exe
+
 build 01_print_datatype_scope: phony 01_print_datatype_scope.exe
+
+build 01_while_loop: phony 01_while_loop.exe
 
 build 02_arithmetic_operators: phony 02_arithmetic_operators.exe
 
 build 02_constant: phony 02_constant.exe
 
+build 02_do_while_loop: phony 02_do_while_loop.exe
+
 build 02_mixed_operations: phony 02_mixed_operations.exe
 
 build 02_string_io: phony 02_string_io.exe
+
+build 02_switch_statement: phony 02_switch_statement.exe
+
+build 03_for_loop: phony 03_for_loop.exe
 
 build 03_format_output: phony 03_format_output.exe
 
@@ -792,6 +1000,8 @@ build 04_auto_modifier: phony 04_auto_modifier.exe
 build 04_format_input: phony 04_format_input.exe
 
 build 04_logical_operators: phony 04_logical_operators.exe
+
+build 04_nested_loop: phony 04_nested_loop.exe
 
 build 05_comma_operator: phony 05_comma_operator.exe
 
@@ -815,7 +1025,7 @@ build 08_extern_modifier_02: phony 08_extern_modifier_02.exe
 #############################################
 # Folder: D:/Desktop/zongliang/learn_c/code/cmake-build-debug
 
-build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe
+build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe
 
 # =============================================================================
 # Built-in targets
