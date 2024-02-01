@@ -937,6 +937,738 @@ build 04_nested_loop.exe: C_EXECUTABLE_LINKER__04_nested_loop_Debug CMakeFiles/0
   TARGET_IMPLIB = lib04_nested_loop.dll.a
   TARGET_PDB = 04_nested_loop.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_1d_array
+
+
+#############################################
+# Order-only phony target for 01_1d_array
+
+build cmake_object_order_depends_target_01_1d_array: phony || CMakeFiles/01_1d_array.dir
+
+build CMakeFiles/01_1d_array.dir/chapter_08/01_1d_array.c.obj: C_COMPILER__01_1d_array_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/01_1d_array.c || cmake_object_order_depends_target_01_1d_array
+  DEP_FILE = CMakeFiles\01_1d_array.dir\chapter_08\01_1d_array.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_1d_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_1d_array.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_1d_array
+
+
+#############################################
+# Link the executable 01_1d_array.exe
+
+build 01_1d_array.exe: C_EXECUTABLE_LINKER__01_1d_array_Debug CMakeFiles/01_1d_array.dir/chapter_08/01_1d_array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_1d_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_1d_array.exe
+  TARGET_IMPLIB = lib01_1d_array.dll.a
+  TARGET_PDB = 01_1d_array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_2d_array
+
+
+#############################################
+# Order-only phony target for 02_2d_array
+
+build cmake_object_order_depends_target_02_2d_array: phony || CMakeFiles/02_2d_array.dir
+
+build CMakeFiles/02_2d_array.dir/chapter_08/02_2d_array.c.obj: C_COMPILER__02_2d_array_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/02_2d_array.c || cmake_object_order_depends_target_02_2d_array
+  DEP_FILE = CMakeFiles\02_2d_array.dir\chapter_08\02_2d_array.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_2d_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_2d_array.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_2d_array
+
+
+#############################################
+# Link the executable 02_2d_array.exe
+
+build 02_2d_array.exe: C_EXECUTABLE_LINKER__02_2d_array_Debug CMakeFiles/02_2d_array.dir/chapter_08/02_2d_array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_2d_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_2d_array.exe
+  TARGET_IMPLIB = lib02_2d_array.dll.a
+  TARGET_PDB = 02_2d_array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_char_array
+
+
+#############################################
+# Order-only phony target for 03_char_array
+
+build cmake_object_order_depends_target_03_char_array: phony || CMakeFiles/03_char_array.dir
+
+build CMakeFiles/03_char_array.dir/chapter_08/03_char_array.c.obj: C_COMPILER__03_char_array_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/03_char_array.c || cmake_object_order_depends_target_03_char_array
+  DEP_FILE = CMakeFiles\03_char_array.dir\chapter_08\03_char_array.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_char_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_char_array.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_char_array
+
+
+#############################################
+# Link the executable 03_char_array.exe
+
+build 03_char_array.exe: C_EXECUTABLE_LINKER__03_char_array_Debug CMakeFiles/03_char_array.dir/chapter_08/03_char_array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_char_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_char_array.exe
+  TARGET_IMPLIB = lib03_char_array.dll.a
+  TARGET_PDB = 03_char_array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_md_array
+
+
+#############################################
+# Order-only phony target for 04_md_array
+
+build cmake_object_order_depends_target_04_md_array: phony || CMakeFiles/04_md_array.dir
+
+build CMakeFiles/04_md_array.dir/chapter_08/04_md_array.c.obj: C_COMPILER__04_md_array_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/04_md_array.c || cmake_object_order_depends_target_04_md_array
+  DEP_FILE = CMakeFiles\04_md_array.dir\chapter_08\04_md_array.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_md_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_md_array.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_md_array
+
+
+#############################################
+# Link the executable 04_md_array.exe
+
+build 04_md_array.exe: C_EXECUTABLE_LINKER__04_md_array_Debug CMakeFiles/04_md_array.dir/chapter_08/04_md_array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04_md_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_md_array.exe
+  TARGET_IMPLIB = lib04_md_array.dll.a
+  TARGET_PDB = 04_md_array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_transpose_array
+
+
+#############################################
+# Order-only phony target for 05_transpose_array
+
+build cmake_object_order_depends_target_05_transpose_array: phony || CMakeFiles/05_transpose_array.dir
+
+build CMakeFiles/05_transpose_array.dir/chapter_08/05_transpose_array.c.obj: C_COMPILER__05_transpose_array_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/05_transpose_array.c || cmake_object_order_depends_target_05_transpose_array
+  DEP_FILE = CMakeFiles\05_transpose_array.dir\chapter_08\05_transpose_array.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05_transpose_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\05_transpose_array.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_transpose_array
+
+
+#############################################
+# Link the executable 05_transpose_array.exe
+
+build 05_transpose_array.exe: C_EXECUTABLE_LINKER__05_transpose_array_Debug CMakeFiles/05_transpose_array.dir/chapter_08/05_transpose_array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05_transpose_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05_transpose_array.exe
+  TARGET_IMPLIB = lib05_transpose_array.dll.a
+  TARGET_PDB = 05_transpose_array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_function
+
+
+#############################################
+# Order-only phony target for 01_function
+
+build cmake_object_order_depends_target_01_function: phony || CMakeFiles/01_function.dir
+
+build CMakeFiles/01_function.dir/chapter_09/01_function.c.obj: C_COMPILER__01_function_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_09/01_function.c || cmake_object_order_depends_target_01_function
+  DEP_FILE = CMakeFiles\01_function.dir\chapter_09\01_function.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_function.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_function.dir\chapter_09
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_function
+
+
+#############################################
+# Link the executable 01_function.exe
+
+build 01_function.exe: C_EXECUTABLE_LINKER__01_function_Debug CMakeFiles/01_function.dir/chapter_09/01_function.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_function.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_function.exe
+  TARGET_IMPLIB = lib01_function.dll.a
+  TARGET_PDB = 01_function.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_static_function
+
+
+#############################################
+# Order-only phony target for 02_static_function
+
+build cmake_object_order_depends_target_02_static_function: phony || CMakeFiles/02_static_function.dir
+
+build CMakeFiles/02_static_function.dir/chapter_09/02_static_function.c.obj: C_COMPILER__02_static_function_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_09/02_static_function.c || cmake_object_order_depends_target_02_static_function
+  DEP_FILE = CMakeFiles\02_static_function.dir\chapter_09\02_static_function.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_static_function.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_static_function.dir\chapter_09
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_static_function
+
+
+#############################################
+# Link the executable 02_static_function.exe
+
+build 02_static_function.exe: C_EXECUTABLE_LINKER__02_static_function_Debug CMakeFiles/02_static_function.dir/chapter_09/02_static_function.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_static_function.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_static_function.exe
+  TARGET_IMPLIB = lib02_static_function.dll.a
+  TARGET_PDB = 02_static_function.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_extern_function
+
+
+#############################################
+# Order-only phony target for 03_extern_function
+
+build cmake_object_order_depends_target_03_extern_function: phony || CMakeFiles/03_extern_function.dir
+
+build CMakeFiles/03_extern_function.dir/chapter_09/03_extern_function_01.c.obj: C_COMPILER__03_extern_function_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_09/03_extern_function_01.c || cmake_object_order_depends_target_03_extern_function
+  DEP_FILE = CMakeFiles\03_extern_function.dir\chapter_09\03_extern_function_01.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_extern_function.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_extern_function.dir\chapter_09
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_extern_function
+
+
+#############################################
+# Link the executable 03_extern_function.exe
+
+build 03_extern_function.exe: C_EXECUTABLE_LINKER__03_extern_function_Debug CMakeFiles/03_extern_function.dir/chapter_09/03_extern_function_01.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_extern_function.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_extern_function.exe
+  TARGET_IMPLIB = lib03_extern_function.dll.a
+  TARGET_PDB = 03_extern_function.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_extern_function_02
+
+
+#############################################
+# Order-only phony target for 04_extern_function_02
+
+build cmake_object_order_depends_target_04_extern_function_02: phony || CMakeFiles/04_extern_function_02.dir
+
+build CMakeFiles/04_extern_function_02.dir/chapter_09/04_extern_function_02.c.obj: C_COMPILER__04_extern_function_02_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_09/04_extern_function_02.c || cmake_object_order_depends_target_04_extern_function_02
+  DEP_FILE = CMakeFiles\04_extern_function_02.dir\chapter_09\04_extern_function_02.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_extern_function_02.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_extern_function_02.dir\chapter_09
+
+build CMakeFiles/04_extern_function_02.dir/chapter_09/03_extern_function_01.c.obj: C_COMPILER__04_extern_function_02_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_09/03_extern_function_01.c || cmake_object_order_depends_target_04_extern_function_02
+  DEP_FILE = CMakeFiles\04_extern_function_02.dir\chapter_09\03_extern_function_01.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_extern_function_02.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_extern_function_02.dir\chapter_09
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_extern_function_02
+
+
+#############################################
+# Link the executable 04_extern_function_02.exe
+
+build 04_extern_function_02.exe: C_EXECUTABLE_LINKER__04_extern_function_02_Debug CMakeFiles/04_extern_function_02.dir/chapter_09/04_extern_function_02.c.obj CMakeFiles/04_extern_function_02.dir/chapter_09/03_extern_function_01.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04_extern_function_02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_extern_function_02.exe
+  TARGET_IMPLIB = lib04_extern_function_02.dll.a
+  TARGET_PDB = 04_extern_function_02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_print_multiplication_table
+
+
+#############################################
+# Order-only phony target for 05_print_multiplication_table
+
+build cmake_object_order_depends_target_05_print_multiplication_table: phony || CMakeFiles/05_print_multiplication_table.dir
+
+build CMakeFiles/05_print_multiplication_table.dir/chapter_07/05_print_multiplication_table.c.obj: C_COMPILER__05_print_multiplication_table_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_07/05_print_multiplication_table.c || cmake_object_order_depends_target_05_print_multiplication_table
+  DEP_FILE = CMakeFiles\05_print_multiplication_table.dir\chapter_07\05_print_multiplication_table.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05_print_multiplication_table.dir
+  OBJECT_FILE_DIR = CMakeFiles\05_print_multiplication_table.dir\chapter_07
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_print_multiplication_table
+
+
+#############################################
+# Link the executable 05_print_multiplication_table.exe
+
+build 05_print_multiplication_table.exe: C_EXECUTABLE_LINKER__05_print_multiplication_table_Debug CMakeFiles/05_print_multiplication_table.dir/chapter_07/05_print_multiplication_table.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05_print_multiplication_table.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05_print_multiplication_table.exe
+  TARGET_IMPLIB = lib05_print_multiplication_table.dll.a
+  TARGET_PDB = 05_print_multiplication_table.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_global_variable
+
+
+#############################################
+# Order-only phony target for 06_global_variable
+
+build cmake_object_order_depends_target_06_global_variable: phony || CMakeFiles/06_global_variable.dir
+
+build CMakeFiles/06_global_variable.dir/chapter_09/06_global_variable.c.obj: C_COMPILER__06_global_variable_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_09/06_global_variable.c || cmake_object_order_depends_target_06_global_variable
+  DEP_FILE = CMakeFiles\06_global_variable.dir\chapter_09\06_global_variable.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06_global_variable.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_global_variable.dir\chapter_09
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_global_variable
+
+
+#############################################
+# Link the executable 06_global_variable.exe
+
+build 06_global_variable.exe: C_EXECUTABLE_LINKER__06_global_variable_Debug CMakeFiles/06_global_variable.dir/chapter_09/06_global_variable.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06_global_variable.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06_global_variable.exe
+  TARGET_IMPLIB = lib06_global_variable.dll.a
+  TARGET_PDB = 06_global_variable.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_generally_used_functions
+
+
+#############################################
+# Order-only phony target for 07_generally_used_functions
+
+build cmake_object_order_depends_target_07_generally_used_functions: phony || CMakeFiles/07_generally_used_functions.dir
+
+build CMakeFiles/07_generally_used_functions.dir/chapter_09/07_generally_used_functions.c.obj: C_COMPILER__07_generally_used_functions_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_09/07_generally_used_functions.c || cmake_object_order_depends_target_07_generally_used_functions
+  DEP_FILE = CMakeFiles\07_generally_used_functions.dir\chapter_09\07_generally_used_functions.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\07_generally_used_functions.dir
+  OBJECT_FILE_DIR = CMakeFiles\07_generally_used_functions.dir\chapter_09
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_generally_used_functions
+
+
+#############################################
+# Link the executable 07_generally_used_functions.exe
+
+build 07_generally_used_functions.exe: C_EXECUTABLE_LINKER__07_generally_used_functions_Debug CMakeFiles/07_generally_used_functions.dir/chapter_09/07_generally_used_functions.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07_generally_used_functions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07_generally_used_functions.exe
+  TARGET_IMPLIB = lib07_generally_used_functions.dll.a
+  TARGET_PDB = 07_generally_used_functions.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_local_variable
+
+
+#############################################
+# Order-only phony target for 05_local_variable
+
+build cmake_object_order_depends_target_05_local_variable: phony || CMakeFiles/05_local_variable.dir
+
+build CMakeFiles/05_local_variable.dir/chapter_09/05_local_variable.c.obj: C_COMPILER__05_local_variable_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_09/05_local_variable.c || cmake_object_order_depends_target_05_local_variable
+  DEP_FILE = CMakeFiles\05_local_variable.dir\chapter_09\05_local_variable.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05_local_variable.dir
+  OBJECT_FILE_DIR = CMakeFiles\05_local_variable.dir\chapter_09
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_local_variable
+
+
+#############################################
+# Link the executable 05_local_variable.exe
+
+build 05_local_variable.exe: C_EXECUTABLE_LINKER__05_local_variable_Debug CMakeFiles/05_local_variable.dir/chapter_09/05_local_variable.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05_local_variable.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05_local_variable.exe
+  TARGET_IMPLIB = lib05_local_variable.dll.a
+  TARGET_PDB = 05_local_variable.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_pointer
+
+
+#############################################
+# Order-only phony target for 01_pointer
+
+build cmake_object_order_depends_target_01_pointer: phony || CMakeFiles/01_pointer.dir
+
+build CMakeFiles/01_pointer.dir/chapter_10/01_print_address.c.obj: C_COMPILER__01_pointer_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_10/01_print_address.c || cmake_object_order_depends_target_01_pointer
+  DEP_FILE = CMakeFiles\01_pointer.dir\chapter_10\01_print_address.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_pointer.dir\chapter_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_pointer
+
+
+#############################################
+# Link the executable 01_pointer.exe
+
+build 01_pointer.exe: C_EXECUTABLE_LINKER__01_pointer_Debug CMakeFiles/01_pointer.dir/chapter_10/01_print_address.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_pointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_pointer.exe
+  TARGET_IMPLIB = lib01_pointer.dll.a
+  TARGET_PDB = 01_pointer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_print_address
+
+
+#############################################
+# Order-only phony target for 01_print_address
+
+build cmake_object_order_depends_target_01_print_address: phony || CMakeFiles/01_print_address.dir
+
+build CMakeFiles/01_print_address.dir/chapter_10/01_print_address.c.obj: C_COMPILER__01_print_address_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_10/01_print_address.c || cmake_object_order_depends_target_01_print_address
+  DEP_FILE = CMakeFiles\01_print_address.dir\chapter_10\01_print_address.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_print_address.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_print_address.dir\chapter_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_print_address
+
+
+#############################################
+# Link the executable 01_print_address.exe
+
+build 01_print_address.exe: C_EXECUTABLE_LINKER__01_print_address_Debug CMakeFiles/01_print_address.dir/chapter_10/01_print_address.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_print_address.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_print_address.exe
+  TARGET_IMPLIB = lib01_print_address.dll.a
+  TARGET_PDB = 01_print_address.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_pointer_and_array
+
+
+#############################################
+# Order-only phony target for 02_pointer_and_array
+
+build cmake_object_order_depends_target_02_pointer_and_array: phony || CMakeFiles/02_pointer_and_array.dir
+
+build CMakeFiles/02_pointer_and_array.dir/chapter_10/02_pointer_and_array.c.obj: C_COMPILER__02_pointer_and_array_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_10/02_pointer_and_array.c || cmake_object_order_depends_target_02_pointer_and_array
+  DEP_FILE = CMakeFiles\02_pointer_and_array.dir\chapter_10\02_pointer_and_array.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_pointer_and_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_pointer_and_array.dir\chapter_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_pointer_and_array
+
+
+#############################################
+# Link the executable 02_pointer_and_array.exe
+
+build 02_pointer_and_array.exe: C_EXECUTABLE_LINKER__02_pointer_and_array_Debug CMakeFiles/02_pointer_and_array.dir/chapter_10/02_pointer_and_array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_pointer_and_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_pointer_and_array.exe
+  TARGET_IMPLIB = lib02_pointer_and_array.dll.a
+  TARGET_PDB = 02_pointer_and_array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_point_pointer
+
+
+#############################################
+# Order-only phony target for 03_point_pointer
+
+build cmake_object_order_depends_target_03_point_pointer: phony || CMakeFiles/03_point_pointer.dir
+
+build CMakeFiles/03_point_pointer.dir/chapter_10/03_point_pointer.c.obj: C_COMPILER__03_point_pointer_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_10/03_point_pointer.c || cmake_object_order_depends_target_03_point_pointer
+  DEP_FILE = CMakeFiles\03_point_pointer.dir\chapter_10\03_point_pointer.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_point_pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_point_pointer.dir\chapter_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_point_pointer
+
+
+#############################################
+# Link the executable 03_point_pointer.exe
+
+build 03_point_pointer.exe: C_EXECUTABLE_LINKER__03_point_pointer_Debug CMakeFiles/03_point_pointer.dir/chapter_10/03_point_pointer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_point_pointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_point_pointer.exe
+  TARGET_IMPLIB = lib03_point_pointer.dll.a
+  TARGET_PDB = 03_point_pointer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_swap_value
+
+
+#############################################
+# Order-only phony target for 04_swap_value
+
+build cmake_object_order_depends_target_04_swap_value: phony || CMakeFiles/04_swap_value.dir
+
+build CMakeFiles/04_swap_value.dir/chapter_10/04_swap_value.c.obj: C_COMPILER__04_swap_value_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_10/04_swap_value.c || cmake_object_order_depends_target_04_swap_value
+  DEP_FILE = CMakeFiles\04_swap_value.dir\chapter_10\04_swap_value.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_swap_value.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_swap_value.dir\chapter_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_swap_value
+
+
+#############################################
+# Link the executable 04_swap_value.exe
+
+build 04_swap_value.exe: C_EXECUTABLE_LINKER__04_swap_value_Debug CMakeFiles/04_swap_value.dir/chapter_10/04_swap_value.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04_swap_value.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_swap_value.exe
+  TARGET_IMPLIB = lib04_swap_value.dll.a
+  TARGET_PDB = 04_swap_value.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_return_pointer
+
+
+#############################################
+# Order-only phony target for 05_return_pointer
+
+build cmake_object_order_depends_target_05_return_pointer: phony || CMakeFiles/05_return_pointer.dir
+
+build CMakeFiles/05_return_pointer.dir/chapter_10/05_return_pointer.c.obj: C_COMPILER__05_return_pointer_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_10/05_return_pointer.c || cmake_object_order_depends_target_05_return_pointer
+  DEP_FILE = CMakeFiles\05_return_pointer.dir\chapter_10\05_return_pointer.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05_return_pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\05_return_pointer.dir\chapter_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_return_pointer
+
+
+#############################################
+# Link the executable 05_return_pointer.exe
+
+build 05_return_pointer.exe: C_EXECUTABLE_LINKER__05_return_pointer_Debug CMakeFiles/05_return_pointer.dir/chapter_10/05_return_pointer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05_return_pointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05_return_pointer.exe
+  TARGET_IMPLIB = lib05_return_pointer.dll.a
+  TARGET_PDB = 05_return_pointer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_struct_type
+
+
+#############################################
+# Order-only phony target for 01_struct_type
+
+build cmake_object_order_depends_target_01_struct_type: phony || CMakeFiles/01_struct_type.dir
+
+build CMakeFiles/01_struct_type.dir/chapter_11/01_struct_type.c.obj: C_COMPILER__01_struct_type_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_11/01_struct_type.c || cmake_object_order_depends_target_01_struct_type
+  DEP_FILE = CMakeFiles\01_struct_type.dir\chapter_11\01_struct_type.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_struct_type.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_struct_type.dir\chapter_11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_struct_type
+
+
+#############################################
+# Link the executable 01_struct_type.exe
+
+build 01_struct_type.exe: C_EXECUTABLE_LINKER__01_struct_type_Debug CMakeFiles/01_struct_type.dir/chapter_11/01_struct_type.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_struct_type.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_struct_type.exe
+  TARGET_IMPLIB = lib01_struct_type.dll.a
+  TARGET_PDB = 01_struct_type.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_union_type
+
+
+#############################################
+# Order-only phony target for 02_union_type
+
+build cmake_object_order_depends_target_02_union_type: phony || CMakeFiles/02_union_type.dir
+
+build CMakeFiles/02_union_type.dir/chapter_11/02_union_type.c.obj: C_COMPILER__02_union_type_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_11/02_union_type.c || cmake_object_order_depends_target_02_union_type
+  DEP_FILE = CMakeFiles\02_union_type.dir\chapter_11\02_union_type.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_union_type.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_union_type.dir\chapter_11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_union_type
+
+
+#############################################
+# Link the executable 02_union_type.exe
+
+build 02_union_type.exe: C_EXECUTABLE_LINKER__02_union_type_Debug CMakeFiles/02_union_type.dir/chapter_11/02_union_type.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_union_type.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_union_type.exe
+  TARGET_IMPLIB = lib02_union_type.dll.a
+  TARGET_PDB = 02_union_type.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_enum_type
+
+
+#############################################
+# Order-only phony target for 03_enum_type
+
+build cmake_object_order_depends_target_03_enum_type: phony || CMakeFiles/03_enum_type.dir
+
+build CMakeFiles/03_enum_type.dir/chapter_11/03_enum_type.c.obj: C_COMPILER__03_enum_type_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_11/03_enum_type.c || cmake_object_order_depends_target_03_enum_type
+  DEP_FILE = CMakeFiles\03_enum_type.dir\chapter_11\03_enum_type.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_enum_type.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_enum_type.dir\chapter_11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_enum_type
+
+
+#############################################
+# Link the executable 03_enum_type.exe
+
+build 03_enum_type.exe: C_EXECUTABLE_LINKER__03_enum_type_Debug CMakeFiles/03_enum_type.dir/chapter_11/03_enum_type.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_enum_type.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_enum_type.exe
+  TARGET_IMPLIB = lib03_enum_type.dll.a
+  TARGET_PDB = 03_enum_type.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -963,17 +1695,29 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 01_1d_array: phony 01_1d_array.exe
+
 build 01_auto_type_conversion: phony 01_auto_type_conversion.exe
 
 build 01_char_io: phony 01_char_io.exe
+
+build 01_function: phony 01_function.exe
 
 build 01_hello_c: phony 01_hello_c.exe
 
 build 01_if_statement: phony 01_if_statement.exe
 
+build 01_pointer: phony 01_pointer.exe
+
+build 01_print_address: phony 01_print_address.exe
+
 build 01_print_datatype_scope: phony 01_print_datatype_scope.exe
 
+build 01_struct_type: phony 01_struct_type.exe
+
 build 01_while_loop: phony 01_while_loop.exe
+
+build 02_2d_array: phony 02_2d_array.exe
 
 build 02_arithmetic_operators: phony 02_arithmetic_operators.exe
 
@@ -983,13 +1727,27 @@ build 02_do_while_loop: phony 02_do_while_loop.exe
 
 build 02_mixed_operations: phony 02_mixed_operations.exe
 
+build 02_pointer_and_array: phony 02_pointer_and_array.exe
+
+build 02_static_function: phony 02_static_function.exe
+
 build 02_string_io: phony 02_string_io.exe
 
 build 02_switch_statement: phony 02_switch_statement.exe
 
+build 02_union_type: phony 02_union_type.exe
+
+build 03_char_array: phony 03_char_array.exe
+
+build 03_enum_type: phony 03_enum_type.exe
+
+build 03_extern_function: phony 03_extern_function.exe
+
 build 03_for_loop: phony 03_for_loop.exe
 
 build 03_format_output: phony 03_format_output.exe
+
+build 03_point_pointer: phony 03_point_pointer.exe
 
 build 03_relational_operators: phony 03_relational_operators.exe
 
@@ -997,23 +1755,41 @@ build 03_variable: phony 03_variable.exe
 
 build 04_auto_modifier: phony 04_auto_modifier.exe
 
+build 04_extern_function_02: phony 04_extern_function_02.exe
+
 build 04_format_input: phony 04_format_input.exe
 
 build 04_logical_operators: phony 04_logical_operators.exe
 
+build 04_md_array: phony 04_md_array.exe
+
 build 04_nested_loop: phony 04_nested_loop.exe
+
+build 04_swap_value: phony 04_swap_value.exe
 
 build 05_comma_operator: phony 05_comma_operator.exe
 
+build 05_local_variable: phony 05_local_variable.exe
+
+build 05_print_multiplication_table: phony 05_print_multiplication_table.exe
+
+build 05_return_pointer: phony 05_return_pointer.exe
+
 build 05_static_modifier: phony 05_static_modifier.exe
 
+build 05_transpose_array: phony 05_transpose_array.exe
+
 build 06_compound_operator: phony 06_compound_operator.exe
+
+build 06_global_variable: phony 06_global_variable.exe
 
 build 06_register_modifier: phony 06_register_modifier.exe
 
 build 07_conditional_operators: phony 07_conditional_operators.exe
 
 build 07_extern_modifier_01: phony 07_extern_modifier_01.exe
+
+build 07_generally_used_functions: phony 07_generally_used_functions.exe
 
 build 08_extern_modifier_02: phony 08_extern_modifier_02.exe
 
@@ -1025,7 +1801,7 @@ build 08_extern_modifier_02: phony 08_extern_modifier_02.exe
 #############################################
 # Folder: D:/Desktop/zongliang/learn_c/code/cmake-build-debug
 
-build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe
+build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe
 
 # =============================================================================
 # Built-in targets

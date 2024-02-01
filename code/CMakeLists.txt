@@ -50,7 +50,51 @@ add_executable(01_if_statement chapter_06/01_if_statement.c)
 add_executable(02_switch_statement chapter_06/02_switch_statement.c)
 
 add_executable(01_while_loop chapter_07/01_while_loop.c)
+
 add_executable(02_do_while_loop chapter_07/02_do_while_loop.c)
+
 add_executable(03_for_loop chapter_07/03_for_loop.c)
 
 add_executable(04_nested_loop chapter_07/04_nested_loop.c)
+
+add_executable(01_1d_array chapter_08/01_1d_array.c)
+
+add_executable(02_2d_array chapter_08/02_2d_array.c)
+
+add_executable(03_char_array chapter_08/03_char_array.c)
+
+add_executable(04_md_array chapter_08/04_md_array.c)
+
+add_executable(05_transpose_array chapter_08/05_transpose_array.c)
+
+add_executable(01_function chapter_09/01_function.c)
+
+add_executable(02_static_function chapter_09/02_static_function.c)
+
+add_executable(03_extern_function chapter_09/03_extern_function_01.c)
+
+add_executable(04_extern_function_02 chapter_09/04_extern_function_02.c chapter_09/03_extern_function_01.c)
+
+add_executable(05_print_multiplication_table chapter_07/05_print_multiplication_table.c)
+
+add_executable(06_global_variable chapter_09/06_global_variable.c)
+
+add_executable(07_generally_used_functions chapter_09/07_generally_used_functions.c)
+
+add_executable(05_local_variable chapter_09/05_local_variable.c)
+
+add_executable(01_pointer chapter_10/01_print_address.c)
+
+add_executable(01_print_address chapter_10/01_print_address.c)
+
+add_executable(02_pointer_and_array chapter_10/02_pointer_and_array.c)
+
+add_executable(03_point_pointer chapter_10/03_point_pointer.c)
+
+add_executable(04_swap_value chapter_10/04_swap_value.c)
+
+add_executable(05_return_pointer chapter_10/05_return_pointer.c)
+
+add_executable(01_struct_type chapter_11/01_struct_type.c)
+add_executable(02_union_type chapter_11/02_union_type.c)
+add_executable(03_enum_type chapter_11/03_enum_type.c)

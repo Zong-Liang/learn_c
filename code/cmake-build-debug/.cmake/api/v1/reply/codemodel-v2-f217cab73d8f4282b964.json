@@ -41,7 +41,29 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
 					]
 				}
 			],
@@ -82,12 +104,41 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01_1d_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_1d_array-Debug-71b2c4f795af8c5cb14f.json",
+					"name" : "01_1d_array",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "01_auto_type_conversion::@6890427a1f51a3e7e1df",
@@ -100,6 +151,13 @@
 					"id" : "01_char_io::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01_char_io-Debug-0618bc8717fd7bcca0c9.json",
 					"name" : "01_char_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_function-Debug-62f0dc64bd1b98ba88d9.json",
+					"name" : "01_function",
 					"projectIndex" : 0
 				},
 				{
@@ -118,6 +176,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "01_pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_pointer-Debug-69c4b51b1919933dbf2e.json",
+					"name" : "01_pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_print_address::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_print_address-Debug-8d02f7a855af10809b41.json",
+					"name" : "01_print_address",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "01_print_datatype_scope::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01_print_datatype_scope-Debug-93ae8f82c19081d3be81.json",
 					"name" : "01_print_datatype_scope",
@@ -125,9 +197,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "01_struct_type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_struct_type-Debug-ebd80221366bb8eb0308.json",
+					"name" : "01_struct_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "01_while_loop::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01_while_loop-Debug-2c50bdd4e30a1c5adf5d.json",
 					"name" : "01_while_loop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_2d_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_2d_array-Debug-b2b3e418d5ea37121a9b.json",
+					"name" : "02_2d_array",
 					"projectIndex" : 0
 				},
 				{
@@ -147,7 +233,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "02_do_while_loop::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-02_do_while_loop-Debug-2fc2a613da4c31776b56.json",
+					"jsonFile" : "target-02_do_while_loop-Debug-274035e52fcd49aa6d4c.json",
 					"name" : "02_do_while_loop",
 					"projectIndex" : 0
 				},
@@ -156,6 +242,20 @@
 					"id" : "02_mixed_operations::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02_mixed_operations-Debug-71bda5d0db9f688a3023.json",
 					"name" : "02_mixed_operations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_pointer_and_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_pointer_and_array-Debug-a0ae2dc09076779d9f13.json",
+					"name" : "02_pointer_and_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_static_function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_static_function-Debug-37a87c156337164a409d.json",
+					"name" : "02_static_function",
 					"projectIndex" : 0
 				},
 				{
@@ -174,8 +274,36 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "02_union_type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_union_type-Debug-334f9386dc0df905c0b5.json",
+					"name" : "02_union_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_char_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_char_array-Debug-144ef4f23b1d79a3b7e8.json",
+					"name" : "03_char_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_enum_type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_enum_type-Debug-ee2e7f794af4e7377630.json",
+					"name" : "03_enum_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_extern_function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_extern_function-Debug-9948dafb4caec28913c4.json",
+					"name" : "03_extern_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "03_for_loop::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-03_for_loop-Debug-47e152108faa29ff21de.json",
+					"jsonFile" : "target-03_for_loop-Debug-65850bc584581dc772e8.json",
 					"name" : "03_for_loop",
 					"projectIndex" : 0
 				},
@@ -184,6 +312,13 @@
 					"id" : "03_format_output::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03_format_output-Debug-e3716115e53376f5fd14.json",
 					"name" : "03_format_output",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_point_pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_point_pointer-Debug-25f6ea8da632c726af17.json",
+					"name" : "03_point_pointer",
 					"projectIndex" : 0
 				},
 				{
@@ -209,6 +344,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "04_extern_function_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_extern_function_02-Debug-c6fa93a3017589389f06.json",
+					"name" : "04_extern_function_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "04_format_input::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-04_format_input-Debug-a7e3e96f23533e28d7a9.json",
 					"name" : "04_format_input",
@@ -223,9 +365,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "04_md_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_md_array-Debug-e76c1f6bb9049f09e5b9.json",
+					"name" : "04_md_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "04_nested_loop::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-04_nested_loop-Debug-b02222d37c8534c76c45.json",
+					"jsonFile" : "target-04_nested_loop-Debug-fc22543627b180aac432.json",
 					"name" : "04_nested_loop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_swap_value::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_swap_value-Debug-eee8385604ff15f6bdfb.json",
+					"name" : "04_swap_value",
 					"projectIndex" : 0
 				},
 				{
@@ -237,6 +393,27 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "05_local_variable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_local_variable-Debug-a951f35843ce380c5646.json",
+					"name" : "05_local_variable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_print_multiplication_table::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_print_multiplication_table-Debug-104d7f6dcee3e5cb364e.json",
+					"name" : "05_print_multiplication_table",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_return_pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_return_pointer-Debug-7f921fd53d5b0b60a80a.json",
+					"name" : "05_return_pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "05_static_modifier::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-05_static_modifier-Debug-5333c71db848379757ff.json",
 					"name" : "05_static_modifier",
@@ -244,9 +421,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "05_transpose_array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_transpose_array-Debug-2ff156b448f3cd4f32c8.json",
+					"name" : "05_transpose_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "06_compound_operator::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-06_compound_operator-Debug-f09d14a5ca6043eb29d5.json",
 					"name" : "06_compound_operator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_global_variable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_global_variable-Debug-dfc5f2034f1d55acea6a.json",
+					"name" : "06_global_variable",
 					"projectIndex" : 0
 				},
 				{
@@ -268,6 +459,13 @@
 					"id" : "07_extern_modifier_01::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-07_extern_modifier_01-Debug-12b0261b814217f0545e.json",
 					"name" : "07_extern_modifier_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_generally_used_functions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_generally_used_functions-Debug-72164ec3c19f7163be58.json",
+					"name" : "07_generally_used_functions",
 					"projectIndex" : 0
 				},
 				{
