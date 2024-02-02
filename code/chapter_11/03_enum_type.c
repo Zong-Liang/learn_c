@@ -29,7 +29,7 @@ int main() {
             printf("SPRING\n");
             break;
         case SUMMER:
-            printf("当前季节是夏天。\n");
+            printf("SUMMER\n");
             break;
         case AUTUMN:
             printf("SUMMER\n");
