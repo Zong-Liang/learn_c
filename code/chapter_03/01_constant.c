@@ -3,9 +3,10 @@
 #define PI 3.14
 
 int main() {
-    int radius;
+    //    const float PI = 3.14f;
+    float radius;
     printf("please input radius of the circle:\n");
-    scanf_s("%d", &radius);
+    scanf_s("%f", &radius);
     float circle_area = PI * radius * radius;
     printf("circle area:\n%.2f", circle_area);
 }
