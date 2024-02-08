@@ -1,7 +1,7 @@
 # ninja log v5
 4	456	7285666983739652	CMakeFiles/02_mixed_operations.dir/chapter_03/09_mixed_operations.c.obj	1b879713d06ddf7e
 3	222	7288250515391911	CMakeFiles/01_1d_array.dir/chapter_08/01_1d_array.c.obj	7ae8411f2ea2ae01
-5	3028	7290605309448661	build.ninja	74972126866214bf
+5	3028	7290625844772067	build.ninja	74972126866214bf
 142	343	7284115208982405	01_print_datatype_scope.exe	2b95a9265e0272e9
 140	327	7284585179408371	02_switch_statement.exe	b1dc08dc3cde4d88
 3	186	7282095202255947	CMakeFiles/02_mixed_operations.dir/chapter_03/02_mixed_operations.c.obj	4b7f0e13a2bc1de9
@@ -33,6 +33,7 @@
 2	137	7284124612144432	CMakeFiles/06_compound_operator.dir/chapter_04/06_compound_operator.c.obj	845ffa413e13cc76
 186	420	7284795703975421	03_point_pointer.exe	ec948b67b3fd0a83
 203	491	7284714514391237	02_2d_array.exe	508279488b3621a6
+1	235	7290619769547891	CMakeFiles/02_code_reading.dir/final_exam_code/code_reading_02.c.obj	7238598084db12d8
 2	202	7284714511552754	CMakeFiles/02_2d_array.dir/chapter_08/02_2d_array.c.obj	c010cd864ab905f5
 4	378	7285677490718203	CMakeFiles/02_string_io.dir/chapter_05/02_string_io.c.obj	82012937bcf57a29
 379	646	7285677494154852	02_string_io.exe	778a7e369da89695
@@ -106,9 +107,18 @@
 158	425	7285550118665535	01_bit_and_byte.exe	12fe78e373ea957d
 1	540	7285624179042803	CMakeFiles/10_test.dir/chapter_03/10_test.c.obj	f5c2324977cedda0
 546	884	7285624182628908	10_test.exe	88a6aa2434e0fe6a
-0	1089	7290605431034529	CMakeFiles/02_bitwise_operators.dir/chapter_12/02_bitwise_operators.c.obj	43cf4712c578701b
-1090	1913	7290605439192670	02_bitwise_operators.exe	6c02d9f0f3fbb48d
-3	188	7290605982820196	CMakeFiles/02_bitwise_operators.dir/chapter_12/02_bitwise_operators.c.obj	43cf4712c578701b
-189	483	7290605985712405	02_bitwise_operators.exe	6c02d9f0f3fbb48d
 2	150	7290606090928841	CMakeFiles/02_bitwise_operators.dir/chapter_12/02_bitwise_operators.c.obj	43cf4712c578701b
 151	388	7290606093228886	02_bitwise_operators.exe	6c02d9f0f3fbb48d
+2	128	7290616845984015	CMakeFiles/code_filling_01.dir/final_exam_code/code_filling_01.c.obj	3ffbf2da781490d0
+130	378	7290616848061435	code_filling_01.exe	6f7760732cda519b
+0	175	7290618952221513	CMakeFiles/01_code_reading.dir/final_exam_code/code_reading_01.c.obj	a76329f43b5c27b5
+176	457	7290618954880410	01_code_reading.exe	2ada9287ece6f451
+155	399	7290623037126598	code_filling_02.exe	6cb082b78bc905b1
+236	500	7290619772079673	02_code_reading.exe	70aca49b30495ba
+1	243	7290619885619018	CMakeFiles/03_code_reading.dir/final_exam_code/code_reading_03.c.obj	75fd7e58c2fca730
+244	551	7290619888646228	03_code_reading.exe	60d2e17c182bcd1d
+2	154	7290623034746547	CMakeFiles/code_filling_02.dir/final_exam_code/code_filling_02.c.obj	c4027ce66ccea344
+1	157	7290624060269997	CMakeFiles/coding_01.dir/final_exam_code/coding_01.c.obj	a8d0f90f52552fb
+158	470	7290624063241508	coding_01.exe	55085627d4f21d68
+0	147	7290625333046563	CMakeFiles/coding_03.dir/final_exam_code/coding_03.c.obj	62c8c907e94b36d7
+149	544	7290625336926188	coding_03.exe	30fd1810d612d35b

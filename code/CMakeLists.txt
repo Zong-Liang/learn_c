@@ -104,3 +104,16 @@ add_executable(03_enum_type chapter_11/03_enum_type.c)
 add_executable(01_bit_and_byte chapter_12/01_bit_and_byte.c)
 
 add_executable(02_bitwise_operators chapter_12/02_bitwise_operators.c)
+
+add_executable(01_code_reading final_exam_code/code_reading_01.c)
+
+add_executable(02_code_reading final_exam_code/code_reading_02.c)
+
+add_executable(03_code_reading final_exam_code/code_reading_03.c)
+
+add_executable(code_filling_01 final_exam_code/code_filling_01.c)
+
+add_executable(code_filling_02 final_exam_code/code_filling_02.c)
+add_executable(coding_01 final_exam_code/coding_01.c)
+add_executable(coding_02 final_exam_code/coding_02.c)
+add_executable(coding_03 final_exam_code/coding_03.c)

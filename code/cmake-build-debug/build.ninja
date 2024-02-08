@@ -1735,6 +1735,270 @@ build 02_bitwise_operators.exe: C_EXECUTABLE_LINKER__02_bitwise_operators_Debug 
   TARGET_IMPLIB = lib02_bitwise_operators.dll.a
   TARGET_PDB = 02_bitwise_operators.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_code_reading
+
+
+#############################################
+# Order-only phony target for 01_code_reading
+
+build cmake_object_order_depends_target_01_code_reading: phony || CMakeFiles/01_code_reading.dir
+
+build CMakeFiles/01_code_reading.dir/final_exam_code/code_reading_01.c.obj: C_COMPILER__01_code_reading_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/final_exam_code/code_reading_01.c || cmake_object_order_depends_target_01_code_reading
+  DEP_FILE = CMakeFiles\01_code_reading.dir\final_exam_code\code_reading_01.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_code_reading.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_code_reading.dir\final_exam_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_code_reading
+
+
+#############################################
+# Link the executable 01_code_reading.exe
+
+build 01_code_reading.exe: C_EXECUTABLE_LINKER__01_code_reading_Debug CMakeFiles/01_code_reading.dir/final_exam_code/code_reading_01.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_code_reading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_code_reading.exe
+  TARGET_IMPLIB = lib01_code_reading.dll.a
+  TARGET_PDB = 01_code_reading.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_code_reading
+
+
+#############################################
+# Order-only phony target for 02_code_reading
+
+build cmake_object_order_depends_target_02_code_reading: phony || CMakeFiles/02_code_reading.dir
+
+build CMakeFiles/02_code_reading.dir/final_exam_code/code_reading_02.c.obj: C_COMPILER__02_code_reading_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/final_exam_code/code_reading_02.c || cmake_object_order_depends_target_02_code_reading
+  DEP_FILE = CMakeFiles\02_code_reading.dir\final_exam_code\code_reading_02.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_code_reading.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_code_reading.dir\final_exam_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_code_reading
+
+
+#############################################
+# Link the executable 02_code_reading.exe
+
+build 02_code_reading.exe: C_EXECUTABLE_LINKER__02_code_reading_Debug CMakeFiles/02_code_reading.dir/final_exam_code/code_reading_02.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_code_reading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_code_reading.exe
+  TARGET_IMPLIB = lib02_code_reading.dll.a
+  TARGET_PDB = 02_code_reading.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_code_reading
+
+
+#############################################
+# Order-only phony target for 03_code_reading
+
+build cmake_object_order_depends_target_03_code_reading: phony || CMakeFiles/03_code_reading.dir
+
+build CMakeFiles/03_code_reading.dir/final_exam_code/code_reading_03.c.obj: C_COMPILER__03_code_reading_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/final_exam_code/code_reading_03.c || cmake_object_order_depends_target_03_code_reading
+  DEP_FILE = CMakeFiles\03_code_reading.dir\final_exam_code\code_reading_03.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_code_reading.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_code_reading.dir\final_exam_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_code_reading
+
+
+#############################################
+# Link the executable 03_code_reading.exe
+
+build 03_code_reading.exe: C_EXECUTABLE_LINKER__03_code_reading_Debug CMakeFiles/03_code_reading.dir/final_exam_code/code_reading_03.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_code_reading.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_code_reading.exe
+  TARGET_IMPLIB = lib03_code_reading.dll.a
+  TARGET_PDB = 03_code_reading.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target code_filling_01
+
+
+#############################################
+# Order-only phony target for code_filling_01
+
+build cmake_object_order_depends_target_code_filling_01: phony || CMakeFiles/code_filling_01.dir
+
+build CMakeFiles/code_filling_01.dir/final_exam_code/code_filling_01.c.obj: C_COMPILER__code_filling_01_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/final_exam_code/code_filling_01.c || cmake_object_order_depends_target_code_filling_01
+  DEP_FILE = CMakeFiles\code_filling_01.dir\final_exam_code\code_filling_01.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\code_filling_01.dir
+  OBJECT_FILE_DIR = CMakeFiles\code_filling_01.dir\final_exam_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target code_filling_01
+
+
+#############################################
+# Link the executable code_filling_01.exe
+
+build code_filling_01.exe: C_EXECUTABLE_LINKER__code_filling_01_Debug CMakeFiles/code_filling_01.dir/final_exam_code/code_filling_01.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\code_filling_01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = code_filling_01.exe
+  TARGET_IMPLIB = libcode_filling_01.dll.a
+  TARGET_PDB = code_filling_01.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target code_filling_02
+
+
+#############################################
+# Order-only phony target for code_filling_02
+
+build cmake_object_order_depends_target_code_filling_02: phony || CMakeFiles/code_filling_02.dir
+
+build CMakeFiles/code_filling_02.dir/final_exam_code/code_filling_02.c.obj: C_COMPILER__code_filling_02_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/final_exam_code/code_filling_02.c || cmake_object_order_depends_target_code_filling_02
+  DEP_FILE = CMakeFiles\code_filling_02.dir\final_exam_code\code_filling_02.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\code_filling_02.dir
+  OBJECT_FILE_DIR = CMakeFiles\code_filling_02.dir\final_exam_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target code_filling_02
+
+
+#############################################
+# Link the executable code_filling_02.exe
+
+build code_filling_02.exe: C_EXECUTABLE_LINKER__code_filling_02_Debug CMakeFiles/code_filling_02.dir/final_exam_code/code_filling_02.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\code_filling_02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = code_filling_02.exe
+  TARGET_IMPLIB = libcode_filling_02.dll.a
+  TARGET_PDB = code_filling_02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target coding_01
+
+
+#############################################
+# Order-only phony target for coding_01
+
+build cmake_object_order_depends_target_coding_01: phony || CMakeFiles/coding_01.dir
+
+build CMakeFiles/coding_01.dir/final_exam_code/coding_01.c.obj: C_COMPILER__coding_01_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/final_exam_code/coding_01.c || cmake_object_order_depends_target_coding_01
+  DEP_FILE = CMakeFiles\coding_01.dir\final_exam_code\coding_01.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\coding_01.dir
+  OBJECT_FILE_DIR = CMakeFiles\coding_01.dir\final_exam_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target coding_01
+
+
+#############################################
+# Link the executable coding_01.exe
+
+build coding_01.exe: C_EXECUTABLE_LINKER__coding_01_Debug CMakeFiles/coding_01.dir/final_exam_code/coding_01.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\coding_01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = coding_01.exe
+  TARGET_IMPLIB = libcoding_01.dll.a
+  TARGET_PDB = coding_01.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target coding_02
+
+
+#############################################
+# Order-only phony target for coding_02
+
+build cmake_object_order_depends_target_coding_02: phony || CMakeFiles/coding_02.dir
+
+build CMakeFiles/coding_02.dir/final_exam_code/coding_02.c.obj: C_COMPILER__coding_02_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/final_exam_code/coding_02.c || cmake_object_order_depends_target_coding_02
+  DEP_FILE = CMakeFiles\coding_02.dir\final_exam_code\coding_02.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\coding_02.dir
+  OBJECT_FILE_DIR = CMakeFiles\coding_02.dir\final_exam_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target coding_02
+
+
+#############################################
+# Link the executable coding_02.exe
+
+build coding_02.exe: C_EXECUTABLE_LINKER__coding_02_Debug CMakeFiles/coding_02.dir/final_exam_code/coding_02.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\coding_02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = coding_02.exe
+  TARGET_IMPLIB = libcoding_02.dll.a
+  TARGET_PDB = coding_02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target coding_03
+
+
+#############################################
+# Order-only phony target for coding_03
+
+build cmake_object_order_depends_target_coding_03: phony || CMakeFiles/coding_03.dir
+
+build CMakeFiles/coding_03.dir/final_exam_code/coding_03.c.obj: C_COMPILER__coding_03_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/final_exam_code/coding_03.c || cmake_object_order_depends_target_coding_03
+  DEP_FILE = CMakeFiles\coding_03.dir\final_exam_code\coding_03.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\coding_03.dir
+  OBJECT_FILE_DIR = CMakeFiles\coding_03.dir\final_exam_code
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target coding_03
+
+
+#############################################
+# Link the executable coding_03.exe
+
+build coding_03.exe: C_EXECUTABLE_LINKER__coding_03_Debug CMakeFiles/coding_03.dir/final_exam_code/coding_03.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\coding_03.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = coding_03.exe
+  TARGET_IMPLIB = libcoding_03.dll.a
+  TARGET_PDB = coding_03.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1769,6 +2033,8 @@ build 01_bit_and_byte: phony 01_bit_and_byte.exe
 
 build 01_char_io: phony 01_char_io.exe
 
+build 01_code_reading: phony 01_code_reading.exe
+
 build 01_function: phony 01_function.exe
 
 build 01_hello_c: phony 01_hello_c.exe
@@ -1791,6 +2057,8 @@ build 02_arithmetic_operators: phony 02_arithmetic_operators.exe
 
 build 02_bitwise_operators: phony 02_bitwise_operators.exe
 
+build 02_code_reading: phony 02_code_reading.exe
+
 build 02_constant: phony 02_constant.exe
 
 build 02_do_while_loop: phony 02_do_while_loop.exe
@@ -1808,6 +2076,8 @@ build 02_switch_statement: phony 02_switch_statement.exe
 build 02_union_type: phony 02_union_type.exe
 
 build 03_char_array: phony 03_char_array.exe
+
+build 03_code_reading: phony 03_code_reading.exe
 
 build 03_enum_type: phony 03_enum_type.exe
 
@@ -1863,6 +2133,16 @@ build 07_generally_used_functions: phony 07_generally_used_functions.exe
 
 build 08_extern_modifier_02: phony 08_extern_modifier_02.exe
 
+build code_filling_01: phony code_filling_01.exe
+
+build code_filling_02: phony code_filling_02.exe
+
+build coding_01: phony coding_01.exe
+
+build coding_02: phony coding_02.exe
+
+build coding_03: phony coding_03.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -1871,7 +2151,7 @@ build 08_extern_modifier_02: phony 08_extern_modifier_02.exe
 #############################################
 # Folder: D:/Desktop/zongliang/learn_c/code/cmake-build-debug
 
-build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe 01_bit_and_byte.exe 02_bitwise_operators.exe
+build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe 01_bit_and_byte.exe 02_bitwise_operators.exe 01_code_reading.exe 02_code_reading.exe 03_code_reading.exe code_filling_01.exe code_filling_02.exe coding_01.exe coding_02.exe coding_03.exe
 
 # =============================================================================
 # Built-in targets

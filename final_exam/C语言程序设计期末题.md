@@ -176,7 +176,6 @@ int prime(int m) {
     return flag;
 }
 int main() {
-    int prime(int);
     int n, judge;
     for (n = 3; n <= 200; n = n + 2) {
         judge = ________;
