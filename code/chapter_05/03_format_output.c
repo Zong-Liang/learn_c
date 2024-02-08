@@ -12,7 +12,7 @@ int main() {
     printf("%o\n", i_3);
     printf("%d\n", i_3);
 
-    unsigned int i_4 = 0x123;
+    unsigned int i_4 = 0x12c;
     printf("%x\n", i_4);
     printf("%X\n", i_4);
     printf("%d\n", i_4);

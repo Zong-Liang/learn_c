@@ -5,7 +5,11 @@ int main() {
     printf("\n");
     putchar('a');
     printf("\n");
+    putchar('A');
+    printf("\n");
     putchar('\101');
+    printf("\n");
+
     printf("\n");
 
     //  int c_1 = getchar();

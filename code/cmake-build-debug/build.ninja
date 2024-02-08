@@ -313,8 +313,8 @@ build 05_comma_operator.exe: C_EXECUTABLE_LINKER__05_comma_operator_Debug CMakeF
 
 build cmake_object_order_depends_target_06_compound_operator: phony || CMakeFiles/06_compound_operator.dir
 
-build CMakeFiles/06_compound_operator.dir/chapter_04/06_compound_operator.c.obj: C_COMPILER__06_compound_operator_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_04/06_compound_operator.c || cmake_object_order_depends_target_06_compound_operator
-  DEP_FILE = CMakeFiles\06_compound_operator.dir\chapter_04\06_compound_operator.c.obj.d
+build CMakeFiles/06_compound_operator.dir/chapter_04/06_compound_operators.c.obj: C_COMPILER__06_compound_operator_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_04/06_compound_operators.c || cmake_object_order_depends_target_06_compound_operator
+  DEP_FILE = CMakeFiles\06_compound_operator.dir\chapter_04\06_compound_operators.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\06_compound_operator.dir
   OBJECT_FILE_DIR = CMakeFiles\06_compound_operator.dir\chapter_04
@@ -327,7 +327,7 @@ build CMakeFiles/06_compound_operator.dir/chapter_04/06_compound_operator.c.obj:
 #############################################
 # Link the executable 06_compound_operator.exe
 
-build 06_compound_operator.exe: C_EXECUTABLE_LINKER__06_compound_operator_Debug CMakeFiles/06_compound_operator.dir/chapter_04/06_compound_operator.c.obj
+build 06_compound_operator.exe: C_EXECUTABLE_LINKER__06_compound_operator_Debug CMakeFiles/06_compound_operator.dir/chapter_04/06_compound_operators.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\06_compound_operator.dir
@@ -1669,6 +1669,72 @@ build 03_enum_type.exe: C_EXECUTABLE_LINKER__03_enum_type_Debug CMakeFiles/03_en
   TARGET_IMPLIB = lib03_enum_type.dll.a
   TARGET_PDB = 03_enum_type.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_bit_and_byte
+
+
+#############################################
+# Order-only phony target for 01_bit_and_byte
+
+build cmake_object_order_depends_target_01_bit_and_byte: phony || CMakeFiles/01_bit_and_byte.dir
+
+build CMakeFiles/01_bit_and_byte.dir/chapter_12/01_bit_and_byte.c.obj: C_COMPILER__01_bit_and_byte_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_12/01_bit_and_byte.c || cmake_object_order_depends_target_01_bit_and_byte
+  DEP_FILE = CMakeFiles\01_bit_and_byte.dir\chapter_12\01_bit_and_byte.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_bit_and_byte.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_bit_and_byte.dir\chapter_12
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_bit_and_byte
+
+
+#############################################
+# Link the executable 01_bit_and_byte.exe
+
+build 01_bit_and_byte.exe: C_EXECUTABLE_LINKER__01_bit_and_byte_Debug CMakeFiles/01_bit_and_byte.dir/chapter_12/01_bit_and_byte.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_bit_and_byte.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_bit_and_byte.exe
+  TARGET_IMPLIB = lib01_bit_and_byte.dll.a
+  TARGET_PDB = 01_bit_and_byte.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_bitwise_operators
+
+
+#############################################
+# Order-only phony target for 02_bitwise_operators
+
+build cmake_object_order_depends_target_02_bitwise_operators: phony || CMakeFiles/02_bitwise_operators.dir
+
+build CMakeFiles/02_bitwise_operators.dir/chapter_12/02_bitwise_operators.c.obj: C_COMPILER__02_bitwise_operators_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_12/02_bitwise_operators.c || cmake_object_order_depends_target_02_bitwise_operators
+  DEP_FILE = CMakeFiles\02_bitwise_operators.dir\chapter_12\02_bitwise_operators.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_bitwise_operators.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_bitwise_operators.dir\chapter_12
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_bitwise_operators
+
+
+#############################################
+# Link the executable 02_bitwise_operators.exe
+
+build 02_bitwise_operators.exe: C_EXECUTABLE_LINKER__02_bitwise_operators_Debug CMakeFiles/02_bitwise_operators.dir/chapter_12/02_bitwise_operators.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_bitwise_operators.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_bitwise_operators.exe
+  TARGET_IMPLIB = lib02_bitwise_operators.dll.a
+  TARGET_PDB = 02_bitwise_operators.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1699,6 +1765,8 @@ build 01_1d_array: phony 01_1d_array.exe
 
 build 01_auto_type_conversion: phony 01_auto_type_conversion.exe
 
+build 01_bit_and_byte: phony 01_bit_and_byte.exe
+
 build 01_char_io: phony 01_char_io.exe
 
 build 01_function: phony 01_function.exe
@@ -1720,6 +1788,8 @@ build 01_while_loop: phony 01_while_loop.exe
 build 02_2d_array: phony 02_2d_array.exe
 
 build 02_arithmetic_operators: phony 02_arithmetic_operators.exe
+
+build 02_bitwise_operators: phony 02_bitwise_operators.exe
 
 build 02_constant: phony 02_constant.exe
 
@@ -1801,7 +1871,7 @@ build 08_extern_modifier_02: phony 08_extern_modifier_02.exe
 #############################################
 # Folder: D:/Desktop/zongliang/learn_c/code/cmake-build-debug
 
-build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe
+build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe 01_bit_and_byte.exe 02_bitwise_operators.exe
 
 # =============================================================================
 # Built-in targets

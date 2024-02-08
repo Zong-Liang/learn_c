@@ -1,4 +1,4 @@
-// 10+'a'−1.5+3.2*6
+// (10+'a'−1.5)+(3.2*6)
 #include <stdio.h>
 
 int main() {
@@ -9,5 +9,9 @@ int main() {
     char char_1 = 'a';
     double result = (int_1 + char_1) - float_1 + float_2 * int_2;
     printf("%.2f\n", result);
+
+    char c_1 = 'A';
+    printf("%d\n", c_1);
+
     return 0;
 }

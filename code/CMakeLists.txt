@@ -19,7 +19,7 @@ add_executable(04_logical_operators chapter_04/04_logical_operators.c)
 
 add_executable(05_comma_operator chapter_04/05_comma_operator.c)
 
-add_executable(06_compound_operator chapter_04/06_compound_operator.c)
+add_executable(06_compound_operator chapter_04/06_compound_operators.c)
 
 add_executable(01_char_io chapter_05/01_char_io.c)
 
@@ -96,5 +96,11 @@ add_executable(04_swap_value chapter_10/04_swap_value.c)
 add_executable(05_return_pointer chapter_10/05_return_pointer.c)
 
 add_executable(01_struct_type chapter_11/01_struct_type.c)
+
 add_executable(02_union_type chapter_11/02_union_type.c)
+
 add_executable(03_enum_type chapter_11/03_enum_type.c)
+
+add_executable(01_bit_and_byte chapter_12/01_bit_and_byte.c)
+
+add_executable(02_bitwise_operators chapter_12/02_bitwise_operators.c)

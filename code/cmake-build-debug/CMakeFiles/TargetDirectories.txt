@@ -47,5 +47,7 @@ D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/05_return_pointer
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_struct_type.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_union_type.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/03_enum_type.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/01_bit_and_byte.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/02_bitwise_operators.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

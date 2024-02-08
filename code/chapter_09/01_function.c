@@ -2,7 +2,7 @@
 int AddTwoNum(int num_1, int num_2);
 
 int main() {
-    int result = 0;
+    int result;
     result = AddTwoNum(6, 6);
     printf("%d\n", result);
 }
