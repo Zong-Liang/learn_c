@@ -1,7 +1,7 @@
 # ninja log v5
 4	456	7285666983739652	CMakeFiles/02_mixed_operations.dir/chapter_03/09_mixed_operations.c.obj	1b879713d06ddf7e
 3	222	7288250515391911	CMakeFiles/01_1d_array.dir/chapter_08/01_1d_array.c.obj	7ae8411f2ea2ae01
-5	3028	7299542420523900	build.ninja	74972126866214bf
+5	3028	7299544585636327	build.ninja	74972126866214bf
 142	343	7284115208982405	01_print_datatype_scope.exe	2b95a9265e0272e9
 140	327	7284585179408371	02_switch_statement.exe	b1dc08dc3cde4d88
 3	186	7282095202255947	CMakeFiles/02_mixed_operations.dir/chapter_03/02_mixed_operations.c.obj	4b7f0e13a2bc1de9
@@ -110,6 +110,7 @@
 2	150	7290606090928841	CMakeFiles/02_bitwise_operators.dir/chapter_12/02_bitwise_operators.c.obj	43cf4712c578701b
 151	388	7290606093228886	02_bitwise_operators.exe	6c02d9f0f3fbb48d
 2	128	7290616845984015	CMakeFiles/code_filling_01.dir/final_exam_code/code_filling_01.c.obj	3ffbf2da781490d0
+237	544	7299543326098126	09_insertion_sort.exe	d98d1599543f41ff
 130	378	7290616848061435	code_filling_01.exe	6f7760732cda519b
 0	175	7290618952221513	CMakeFiles/01_code_reading.dir/final_exam_code/code_reading_01.c.obj	a76329f43b5c27b5
 176	457	7290618954880410	01_code_reading.exe	2ada9287ece6f451
@@ -122,10 +123,6 @@
 158	470	7290624063241508	coding_01.exe	55085627d4f21d68
 0	147	7290625333046563	CMakeFiles/coding_03.dir/final_exam_code/coding_03.c.obj	62c8c907e94b36d7
 149	544	7290625336926188	coding_03.exe	30fd1810d612d35b
-1	269	7299508371388926	CMakeFiles/06_selection_sort.dir/chapter_08/06_selection_sort.c.obj	35487d43c7f03065
-270	674	7299508375403622	06_selection_sort.exe	924d9ac171496a57
-2	167	7299510069916356	CMakeFiles/07_bubble_sort.dir/chapter_08/07_bubble_sort.c.obj	6038cafe6212449d
-168	430	7299510072454693	07_bubble_sort.exe	fcb5724d6f59ab4f
 2	185	7299542915514772	CMakeFiles/06_selection_sort.dir/chapter_08/06_selection_sort.c.obj	35487d43c7f03065
 186	619	7299542919717703	06_selection_sort.exe	924d9ac171496a57
 3	160	7299543180098207	CMakeFiles/07_bubble_sort.dir/chapter_08/07_bubble_sort.c.obj	6038cafe6212449d
@@ -133,6 +130,5 @@
 1	176	7299543254559992	CMakeFiles/08_quick_sort.dir/chapter_08/08_quick_sort.c.obj	8d1f4d65ccbcca6a
 177	487	7299543257539552	08_quick_sort.exe	b2ab10572160faa5
 1	236	7299543323132121	CMakeFiles/09_insertion_sort.dir/chapter_08/09_insertion_sort.c.obj	f5c4a6b4a0572e93
-237	544	7299543326098126	09_insertion_sort.exe	d98d1599543f41ff
 1	199	7299543384598455	CMakeFiles/10_binary_insertion_sort.dir/chapter_08/10_binary_insertion_sort.c.obj	77087609760246fc
 200	536	7299543387907618	10_binary_insertion_sort.exe	a48a4a796ff6477f

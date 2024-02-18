@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void bubbleSort(int arr[], int n) {
+void BubbleSort(int arr[], int n) {
     int i, j;
     for (i = 0; i < n - 1; i++) {
         // 每次循环将最大的元素放到末尾
@@ -25,7 +25,7 @@ int main() {
     }
     printf("\n");
 
-    bubbleSort(arr, n);
+    BubbleSort(arr, n);
 
     printf("排序后的数组: \n");
     for (int i = 0; i < n; i++) {

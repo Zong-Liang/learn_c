@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void insertionSort(int arr[], int n) {
+void InsertionSort(int arr[], int n) {
     int i, key, j;
     for (i = 1; i < n; i++) {
         key = arr[i];
@@ -25,7 +25,7 @@ int main() {
     }
     printf("\n");
 
-    insertionSort(arr, n);
+    InsertionSort(arr, n);
 
     printf("排序后的数组: \n");
     for (int i = 0; i < n; i++) {

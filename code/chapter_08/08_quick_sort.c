@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void swap(int *a, int *b) {
+void Swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
 }
 
-int partition(int arr[], int low, int high) {
+int Partition(int arr[], int low, int high) {
     int pivot = arr[high];// 选择最后一个元素作为基准
     int i = (low - 1);    // 小于基准的元素的最后一个索引
 
@@ -14,18 +14,18 @@ int partition(int arr[], int low, int high) {
         // 如果当前元素小于等于基准
         if (arr[j] <= pivot) {
             i++;                   // 小于基准的元素的个数增加
-            swap(&arr[i], &arr[j]);// 交换 arr[i] 和 arr[j]
+            Swap(&arr[i], &arr[j]);// 交换 arr[i] 和 arr[j]
         }
     }
-    swap(&arr[i + 1], &arr[high]);// 交换 arr[i+1] 和 arr[high]，使基准元素位于正确的位置
+    Swap(&arr[i + 1], &arr[high]);// 交换 arr[i+1] 和 arr[high]，使基准元素位于正确的位置
     return (i + 1);
 }
 
-void quickSort(int arr[], int low, int high) {
+void QuickSort(int arr[], int low, int high) {
     if (low < high) {
-        int pi = partition(arr, low, high);// 将数组分割成两部分
-        quickSort(arr, low, pi - 1);       // 对左侧部分进行快速排序
-        quickSort(arr, pi + 1, high);      // 对右侧部分进行快速排序
+        int pi = Partition(arr, low, high);// 将数组分割成两部分
+        QuickSort(arr, low, pi - 1);       // 对左侧部分进行快速排序
+        QuickSort(arr, pi + 1, high);      // 对右侧部分进行快速排序
     }
 }
 
@@ -39,7 +39,7 @@ int main() {
     }
     printf("\n");
 
-    quickSort(arr, 0, n - 1);
+    QuickSort(arr, 0, n - 1);
 
     printf("排序后的数组: \n");
     for (int i = 0; i < n; i++) {

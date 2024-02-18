@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void selectionSort(int arr[], int n) {
+void SelectionSort(int arr[], int n) {
     int i, j, min_idx;
 
     // 遍历数组
@@ -30,7 +30,7 @@ int main() {
     }
     printf("\n");
 
-    selectionSort(arr, n);
+    SelectionSort(arr, n);
 
     printf("排序后的数组: \n");
     for (int i = 0; i < n; i++) {

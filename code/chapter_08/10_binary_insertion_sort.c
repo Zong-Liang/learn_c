@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void binaryInsertionSort(int arr[], int n) {
+void BinaryInsertionSort(int arr[], int n) {
     int i, j, key, low, high, mid;
     for (i = 1; i < n; i++) {
         key = arr[i];
@@ -34,7 +34,7 @@ int main() {
     }
     printf("\n");
 
-    binaryInsertionSort(arr, n);
+    BinaryInsertionSort(arr, n);
 
     printf("排序后的数组: \n");
     for (int i = 0; i < n; i++) {
