@@ -57,5 +57,10 @@ D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/code_filling_02.d
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/coding_01.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/coding_02.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/coding_03.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/06_selection_sort.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/07_bubble_sort.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/08_quick_sort.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/09_insertion_sort.dir
+D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/10_binary_insertion_sort.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Desktop/zongliang/learn_c/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

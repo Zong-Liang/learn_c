@@ -1999,6 +1999,171 @@ build coding_03.exe: C_EXECUTABLE_LINKER__coding_03_Debug CMakeFiles/coding_03.d
   TARGET_IMPLIB = libcoding_03.dll.a
   TARGET_PDB = coding_03.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_selection_sort
+
+
+#############################################
+# Order-only phony target for 06_selection_sort
+
+build cmake_object_order_depends_target_06_selection_sort: phony || CMakeFiles/06_selection_sort.dir
+
+build CMakeFiles/06_selection_sort.dir/chapter_08/06_selection_sort.c.obj: C_COMPILER__06_selection_sort_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/06_selection_sort.c || cmake_object_order_depends_target_06_selection_sort
+  DEP_FILE = CMakeFiles\06_selection_sort.dir\chapter_08\06_selection_sort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06_selection_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_selection_sort.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_selection_sort
+
+
+#############################################
+# Link the executable 06_selection_sort.exe
+
+build 06_selection_sort.exe: C_EXECUTABLE_LINKER__06_selection_sort_Debug CMakeFiles/06_selection_sort.dir/chapter_08/06_selection_sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06_selection_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06_selection_sort.exe
+  TARGET_IMPLIB = lib06_selection_sort.dll.a
+  TARGET_PDB = 06_selection_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_bubble_sort
+
+
+#############################################
+# Order-only phony target for 07_bubble_sort
+
+build cmake_object_order_depends_target_07_bubble_sort: phony || CMakeFiles/07_bubble_sort.dir
+
+build CMakeFiles/07_bubble_sort.dir/chapter_08/07_bubble_sort.c.obj: C_COMPILER__07_bubble_sort_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/07_bubble_sort.c || cmake_object_order_depends_target_07_bubble_sort
+  DEP_FILE = CMakeFiles\07_bubble_sort.dir\chapter_08\07_bubble_sort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\07_bubble_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\07_bubble_sort.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_bubble_sort
+
+
+#############################################
+# Link the executable 07_bubble_sort.exe
+
+build 07_bubble_sort.exe: C_EXECUTABLE_LINKER__07_bubble_sort_Debug CMakeFiles/07_bubble_sort.dir/chapter_08/07_bubble_sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07_bubble_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07_bubble_sort.exe
+  TARGET_IMPLIB = lib07_bubble_sort.dll.a
+  TARGET_PDB = 07_bubble_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 08_quick_sort
+
+
+#############################################
+# Order-only phony target for 08_quick_sort
+
+build cmake_object_order_depends_target_08_quick_sort: phony || CMakeFiles/08_quick_sort.dir
+
+build CMakeFiles/08_quick_sort.dir/chapter_08/08_quick_sort.c.obj: C_COMPILER__08_quick_sort_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/08_quick_sort.c || cmake_object_order_depends_target_08_quick_sort
+  DEP_FILE = CMakeFiles\08_quick_sort.dir\chapter_08\08_quick_sort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\08_quick_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\08_quick_sort.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08_quick_sort
+
+
+#############################################
+# Link the executable 08_quick_sort.exe
+
+build 08_quick_sort.exe: C_EXECUTABLE_LINKER__08_quick_sort_Debug CMakeFiles/08_quick_sort.dir/chapter_08/08_quick_sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\08_quick_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 08_quick_sort.exe
+  TARGET_IMPLIB = lib08_quick_sort.dll.a
+  TARGET_PDB = 08_quick_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 09_insertion_sort
+
+
+#############################################
+# Order-only phony target for 09_insertion_sort
+
+build cmake_object_order_depends_target_09_insertion_sort: phony || CMakeFiles/09_insertion_sort.dir
+
+build CMakeFiles/09_insertion_sort.dir/chapter_08/09_insertion_sort.c.obj: C_COMPILER__09_insertion_sort_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/09_insertion_sort.c || cmake_object_order_depends_target_09_insertion_sort
+  DEP_FILE = CMakeFiles\09_insertion_sort.dir\chapter_08\09_insertion_sort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\09_insertion_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\09_insertion_sort.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09_insertion_sort
+
+
+#############################################
+# Link the executable 09_insertion_sort.exe
+
+build 09_insertion_sort.exe: C_EXECUTABLE_LINKER__09_insertion_sort_Debug CMakeFiles/09_insertion_sort.dir/chapter_08/09_insertion_sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\09_insertion_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 09_insertion_sort.exe
+  TARGET_IMPLIB = lib09_insertion_sort.dll.a
+  TARGET_PDB = 09_insertion_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10_binary_insertion_sort
+
+
+#############################################
+# Order-only phony target for 10_binary_insertion_sort
+
+build cmake_object_order_depends_target_10_binary_insertion_sort: phony || CMakeFiles/10_binary_insertion_sort.dir
+
+build CMakeFiles/10_binary_insertion_sort.dir/chapter_08/10_binary_insertion_sort.c.obj: C_COMPILER__10_binary_insertion_sort_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_08/10_binary_insertion_sort.c || cmake_object_order_depends_target_10_binary_insertion_sort
+  DEP_FILE = CMakeFiles\10_binary_insertion_sort.dir\chapter_08\10_binary_insertion_sort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\10_binary_insertion_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\10_binary_insertion_sort.dir\chapter_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10_binary_insertion_sort
+
+
+#############################################
+# Link the executable 10_binary_insertion_sort.exe
+
+build 10_binary_insertion_sort.exe: C_EXECUTABLE_LINKER__10_binary_insertion_sort_Debug CMakeFiles/10_binary_insertion_sort.dir/chapter_08/10_binary_insertion_sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10_binary_insertion_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10_binary_insertion_sort.exe
+  TARGET_IMPLIB = lib10_binary_insertion_sort.dll.a
+  TARGET_PDB = 10_binary_insertion_sort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2125,6 +2290,10 @@ build 06_global_variable: phony 06_global_variable.exe
 
 build 06_register_modifier: phony 06_register_modifier.exe
 
+build 06_selection_sort: phony 06_selection_sort.exe
+
+build 07_bubble_sort: phony 07_bubble_sort.exe
+
 build 07_conditional_operators: phony 07_conditional_operators.exe
 
 build 07_extern_modifier_01: phony 07_extern_modifier_01.exe
@@ -2132,6 +2301,12 @@ build 07_extern_modifier_01: phony 07_extern_modifier_01.exe
 build 07_generally_used_functions: phony 07_generally_used_functions.exe
 
 build 08_extern_modifier_02: phony 08_extern_modifier_02.exe
+
+build 08_quick_sort: phony 08_quick_sort.exe
+
+build 09_insertion_sort: phony 09_insertion_sort.exe
+
+build 10_binary_insertion_sort: phony 10_binary_insertion_sort.exe
 
 build code_filling_01: phony code_filling_01.exe
 
@@ -2151,7 +2326,7 @@ build coding_03: phony coding_03.exe
 #############################################
 # Folder: D:/Desktop/zongliang/learn_c/code/cmake-build-debug
 
-build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe 01_bit_and_byte.exe 02_bitwise_operators.exe 01_code_reading.exe 02_code_reading.exe 03_code_reading.exe code_filling_01.exe code_filling_02.exe coding_01.exe coding_02.exe coding_03.exe
+build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe 01_bit_and_byte.exe 02_bitwise_operators.exe 01_code_reading.exe 02_code_reading.exe 03_code_reading.exe code_filling_01.exe code_filling_02.exe coding_01.exe coding_02.exe coding_03.exe 06_selection_sort.exe 07_bubble_sort.exe 08_quick_sort.exe 09_insertion_sort.exe 10_binary_insertion_sort.exe
 
 # =============================================================================
 # Built-in targets

@@ -117,3 +117,11 @@ add_executable(code_filling_02 final_exam_code/code_filling_02.c)
 add_executable(coding_01 final_exam_code/coding_01.c)
 add_executable(coding_02 final_exam_code/coding_02.c)
 add_executable(coding_03 final_exam_code/coding_03.c)
+
+add_executable(06_selection_sort chapter_08/06_selection_sort.c)
+
+add_executable(07_bubble_sort chapter_08/07_bubble_sort.c)
+
+add_executable(08_quick_sort chapter_08/08_quick_sort.c)
+add_executable(09_insertion_sort chapter_08/09_insertion_sort.c)
+add_executable(10_binary_insertion_sort chapter_08/10_binary_insertion_sort.c)

@@ -73,7 +73,12 @@
 						55,
 						56,
 						57,
-						58
+						58,
+						59,
+						60,
+						61,
+						62,
+						63
 					]
 				}
 			],
@@ -146,7 +151,12 @@
 						55,
 						56,
 						57,
-						58
+						58,
+						59,
+						60,
+						61,
+						62,
+						63
 					]
 				}
 			],
@@ -504,6 +514,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "06_selection_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_selection_sort-Debug-29788aa2c6dce614a3eb.json",
+					"name" : "06_selection_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_bubble_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_bubble_sort-Debug-cc4687f402849d6548fc.json",
+					"name" : "07_bubble_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "07_conditional_operators::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-07_conditional_operators-Debug-13e62264106fd9cf0287.json",
 					"name" : "07_conditional_operators",
@@ -528,6 +552,27 @@
 					"id" : "08_extern_modifier_02::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-08_extern_modifier_02-Debug-5c433acac56d8a03304b.json",
 					"name" : "08_extern_modifier_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_quick_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_quick_sort-Debug-ec5a61d525a84e33ed0a.json",
+					"name" : "08_quick_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_insertion_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_insertion_sort-Debug-33ea842a2cabb7e7c243.json",
+					"name" : "09_insertion_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10_binary_insertion_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_binary_insertion_sort-Debug-08f647622d1becac14e0.json",
+					"name" : "10_binary_insertion_sort",
 					"projectIndex" : 0
 				},
 				{
