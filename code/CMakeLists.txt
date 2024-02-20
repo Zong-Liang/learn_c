@@ -125,3 +125,13 @@ add_executable(07_bubble_sort chapter_08/07_bubble_sort.c)
 add_executable(08_quick_sort chapter_08/08_quick_sort.c)
 add_executable(09_insertion_sort chapter_08/09_insertion_sort.c)
 add_executable(10_binary_insertion_sort chapter_08/10_binary_insertion_sort.c)
+
+add_executable(01_macro_definition chapter_13/01_macro_definition.c)
+
+add_executable(02_include chapter_13/02_include.c)
+
+add_executable(03_conditional_compilation chapter_13/03_conditional_compilation.c)
+
+add_executable(01_file_operations chapter_14/01_file_operations.c)
+
+add_executable(01_memory_management chapter_15/01_memory_management.c)

@@ -1,7 +1,7 @@
 # ninja log v5
 4	456	7285666983739652	CMakeFiles/02_mixed_operations.dir/chapter_03/09_mixed_operations.c.obj	1b879713d06ddf7e
 3	222	7288250515391911	CMakeFiles/01_1d_array.dir/chapter_08/01_1d_array.c.obj	7ae8411f2ea2ae01
-5	3028	7299544585636327	build.ninja	74972126866214bf
+5	3028	7301220867383725	build.ninja	74972126866214bf
 142	343	7284115208982405	01_print_datatype_scope.exe	2b95a9265e0272e9
 140	327	7284585179408371	02_switch_statement.exe	b1dc08dc3cde4d88
 3	186	7282095202255947	CMakeFiles/02_mixed_operations.dir/chapter_03/02_mixed_operations.c.obj	4b7f0e13a2bc1de9
@@ -53,6 +53,7 @@
 225	526	7288250518253321	01_1d_array.exe	99ba09ddbf70e212
 274	515	7288211221085869	04_nested_loop.exe	80df277a2c50c33f
 303	530	7284115934464072	03_variable.exe	57a2e2e360979a1e
+217	1055	7301219218107230	01_file_operations.exe	35b3a4462fb4c666
 4	584	7285618012024502	CMakeFiles/04_auto_modifier.dir/chapter_03/04_auto_modifier.c.obj	6e62abb03156a16
 585	982	7285618015888705	04_auto_modifier.exe	91abd08c8c44a22
 6	270	7285619539225194	CMakeFiles/05_static_modifier.dir/chapter_03/05_static_modifier.c.obj	134f3bc986745bbe
@@ -75,8 +76,8 @@
 299	681	7288258790373118	03_char_array.exe	ba5e0824072b491
 29	657	7288273842496078	CMakeFiles/04_md_array.dir/chapter_08/04_md_array.c.obj	ebbe254ff8b4181b
 658	942	7288273845321488	04_md_array.exe	2a29ccb20b83fc74
-3	152	7284670053515217	CMakeFiles/01_function.dir/chapter_09/01_function.c.obj	e6be58f8176c9332
-153	356	7284670055489162	01_function.exe	2a502c6ca6780a10
+4	1776	7300498015188381	CMakeFiles/01_function.dir/chapter_09/01_function.c.obj	e6be58f8176c9332
+1777	11636	7300498111981008	01_function.exe	2a502c6ca6780a10
 154	343	7284724607422172	05_transpose_array.exe	9cc17c54e883c2a2
 236	562	7288227720249163	05_print_multiplication_table.exe	e1eed337cfe9d04c
 155	398	7284730560711244	02_static_function.exe	fef1828d9ae96504
@@ -84,8 +85,8 @@
 19	143	7284734173678950	CMakeFiles/04_extern_function_02.dir/chapter_09/03_extern_function_01.c.obj	4aa04ece3224649
 0	160	7284734173868446	CMakeFiles/04_extern_function_02.dir/chapter_09/04_extern_function_02.c.obj	3aabe15263949b6a
 182	399	7284739767785432	06_global_variable.exe	d639f1b34d1c8c62
-3	182	7284756959366517	CMakeFiles/07_generally_used_functions.dir/chapter_09/07_generally_used_functions.c.obj	639c046fb2975bb3
-183	409	7284756961560641	07_generally_used_functions.exe	44c42c8cc453de1a
+4	530	7300518653724905	CMakeFiles/07_generally_used_functions.dir/chapter_09/07_generally_used_functions.c.obj	639c046fb2975bb3
+532	955	7300518657854603	07_generally_used_functions.exe	44c42c8cc453de1a
 145	328	7284763602611345	01_pointer.exe	edc865137609121c
 6	148	7284773789035447	CMakeFiles/01_print_address.dir/chapter_10/01_print_address.c.obj	3042815fc237d943
 149	341	7284773790906065	01_print_address.exe	3e9905dfd74438bc
@@ -99,6 +100,7 @@
 1	143	7284805424799489	CMakeFiles/06_main_parameter.dir/chapter_10/06_main_parameter.c.obj	c611caba6c2a4f1b
 145	395	7284805427260325	06_main_parameter.exe	82d7f5b933feb1c2
 176	367	7285403315903337	01_struct_type.exe	c24738953e6f88b7
+3	163	7301182613630394	CMakeFiles/03_conditional_compilation.dir/chapter_13/03_conditional_compilation.c.obj	759943e242720195
 3	144	7284825757718372	CMakeFiles/02_union_type.dir/chapter_11/02_union_type.c.obj	1c59ebd68145e6d9
 145	338	7284825759573773	02_union_type.exe	81d9d9f0facc5d1d
 3	150	7284827658544188	CMakeFiles/03_enum_type.dir/chapter_11/03_enum_type.c.obj	5ca4ee9cde44e039
@@ -132,3 +134,11 @@
 1	236	7299543323132121	CMakeFiles/09_insertion_sort.dir/chapter_08/09_insertion_sort.c.obj	f5c4a6b4a0572e93
 1	199	7299543384598455	CMakeFiles/10_binary_insertion_sort.dir/chapter_08/10_binary_insertion_sort.c.obj	77087609760246fc
 200	536	7299543387907618	10_binary_insertion_sort.exe	a48a4a796ff6477f
+1	609	7300513321107991	CMakeFiles/05_local_variable.dir/chapter_09/05_local_variable.c.obj	fffad0d47e7108af
+621	944	7300513324380454	05_local_variable.exe	4dd435f8acf55d79
+3	165	7301152027685847	CMakeFiles/02_include.dir/chapter_13/02_include.c.obj	d416ae6ac24901eb
+166	466	7301152030049928	02_include.exe	777d355497238110
+164	423	7301182616153799	03_conditional_compilation.exe	db6833056ca232f1
+5	216	7301219210938237	CMakeFiles/01_file_operations.dir/chapter_14/01_file_operations.c.obj	2819937196be8492
+2	185	7301222665762355	CMakeFiles/01_memory_management.dir/chapter_15/01_memory_management.c.obj	9923fe9a4f7c7592
+187	646	7301222670194958	01_memory_management.exe	d816286604a3cf0d

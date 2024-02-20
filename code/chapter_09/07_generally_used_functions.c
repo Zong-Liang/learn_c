@@ -24,11 +24,11 @@ int main() {
     printf("%d\n", isalpha(c_1));
     printf("%d\n", isalpha(c_2));
 
-    printf("%d\n", isalnum(c_1));
-    printf("%d\n", isalnum(c_2));
-
     printf("%d\n", isdigit(c_1));
     printf("%d\n", isdigit(c_2));
+
+    printf("%d\n", isalnum(c_1));
+    printf("%d\n", isalnum(c_2));
 
     char c_arr_1[10] = "hello";
     char c_arr_2[10] = "string";

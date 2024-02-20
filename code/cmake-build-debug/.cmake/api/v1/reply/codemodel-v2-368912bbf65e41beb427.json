@@ -78,7 +78,12 @@
 						60,
 						61,
 						62,
-						63
+						63,
+						64,
+						65,
+						66,
+						67,
+						68
 					]
 				}
 			],
@@ -156,7 +161,12 @@
 						60,
 						61,
 						62,
-						63
+						63,
+						64,
+						65,
+						66,
+						67,
+						68
 					]
 				}
 			],
@@ -199,6 +209,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "01_file_operations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_file_operations-Debug-dde1fc3758f0c8238037.json",
+					"name" : "01_file_operations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "01_function::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01_function-Debug-62f0dc64bd1b98ba88d9.json",
 					"name" : "01_function",
@@ -216,6 +233,20 @@
 					"id" : "01_if_statement::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01_if_statement-Debug-8454da2e0de5f5e90ca3.json",
 					"name" : "01_if_statement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_macro_definition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_macro_definition-Debug-687a33d0bef94634ec7a.json",
+					"name" : "01_macro_definition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_memory_management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_memory_management-Debug-0de942422f3d5ca6e373.json",
+					"name" : "01_memory_management",
 					"projectIndex" : 0
 				},
 				{
@@ -297,6 +328,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "02_include::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_include-Debug-4c38c917ed1368bb73c9.json",
+					"name" : "02_include",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "02_mixed_operations::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02_mixed_operations-Debug-71bda5d0db9f688a3023.json",
 					"name" : "02_mixed_operations",
@@ -349,6 +387,13 @@
 					"id" : "03_code_reading::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03_code_reading-Debug-0b91c8eaae9205e78dfa.json",
 					"name" : "03_code_reading",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_conditional_compilation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_conditional_compilation-Debug-1751106ca9934c2fbb9b.json",
+					"name" : "03_conditional_compilation",
 					"projectIndex" : 0
 				},
 				{

@@ -2164,6 +2164,171 @@ build 10_binary_insertion_sort.exe: C_EXECUTABLE_LINKER__10_binary_insertion_sor
   TARGET_IMPLIB = lib10_binary_insertion_sort.dll.a
   TARGET_PDB = 10_binary_insertion_sort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_macro_definition
+
+
+#############################################
+# Order-only phony target for 01_macro_definition
+
+build cmake_object_order_depends_target_01_macro_definition: phony || CMakeFiles/01_macro_definition.dir
+
+build CMakeFiles/01_macro_definition.dir/chapter_13/01_macro_definition.c.obj: C_COMPILER__01_macro_definition_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_13/01_macro_definition.c || cmake_object_order_depends_target_01_macro_definition
+  DEP_FILE = CMakeFiles\01_macro_definition.dir\chapter_13\01_macro_definition.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_macro_definition.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_macro_definition.dir\chapter_13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_macro_definition
+
+
+#############################################
+# Link the executable 01_macro_definition.exe
+
+build 01_macro_definition.exe: C_EXECUTABLE_LINKER__01_macro_definition_Debug CMakeFiles/01_macro_definition.dir/chapter_13/01_macro_definition.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_macro_definition.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_macro_definition.exe
+  TARGET_IMPLIB = lib01_macro_definition.dll.a
+  TARGET_PDB = 01_macro_definition.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_include
+
+
+#############################################
+# Order-only phony target for 02_include
+
+build cmake_object_order_depends_target_02_include: phony || CMakeFiles/02_include.dir
+
+build CMakeFiles/02_include.dir/chapter_13/02_include.c.obj: C_COMPILER__02_include_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_13/02_include.c || cmake_object_order_depends_target_02_include
+  DEP_FILE = CMakeFiles\02_include.dir\chapter_13\02_include.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_include.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_include.dir\chapter_13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_include
+
+
+#############################################
+# Link the executable 02_include.exe
+
+build 02_include.exe: C_EXECUTABLE_LINKER__02_include_Debug CMakeFiles/02_include.dir/chapter_13/02_include.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02_include.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_include.exe
+  TARGET_IMPLIB = lib02_include.dll.a
+  TARGET_PDB = 02_include.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_conditional_compilation
+
+
+#############################################
+# Order-only phony target for 03_conditional_compilation
+
+build cmake_object_order_depends_target_03_conditional_compilation: phony || CMakeFiles/03_conditional_compilation.dir
+
+build CMakeFiles/03_conditional_compilation.dir/chapter_13/03_conditional_compilation.c.obj: C_COMPILER__03_conditional_compilation_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_13/03_conditional_compilation.c || cmake_object_order_depends_target_03_conditional_compilation
+  DEP_FILE = CMakeFiles\03_conditional_compilation.dir\chapter_13\03_conditional_compilation.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_conditional_compilation.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_conditional_compilation.dir\chapter_13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_conditional_compilation
+
+
+#############################################
+# Link the executable 03_conditional_compilation.exe
+
+build 03_conditional_compilation.exe: C_EXECUTABLE_LINKER__03_conditional_compilation_Debug CMakeFiles/03_conditional_compilation.dir/chapter_13/03_conditional_compilation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03_conditional_compilation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_conditional_compilation.exe
+  TARGET_IMPLIB = lib03_conditional_compilation.dll.a
+  TARGET_PDB = 03_conditional_compilation.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_file_operations
+
+
+#############################################
+# Order-only phony target for 01_file_operations
+
+build cmake_object_order_depends_target_01_file_operations: phony || CMakeFiles/01_file_operations.dir
+
+build CMakeFiles/01_file_operations.dir/chapter_14/01_file_operations.c.obj: C_COMPILER__01_file_operations_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_14/01_file_operations.c || cmake_object_order_depends_target_01_file_operations
+  DEP_FILE = CMakeFiles\01_file_operations.dir\chapter_14\01_file_operations.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_file_operations.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_file_operations.dir\chapter_14
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_file_operations
+
+
+#############################################
+# Link the executable 01_file_operations.exe
+
+build 01_file_operations.exe: C_EXECUTABLE_LINKER__01_file_operations_Debug CMakeFiles/01_file_operations.dir/chapter_14/01_file_operations.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_file_operations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_file_operations.exe
+  TARGET_IMPLIB = lib01_file_operations.dll.a
+  TARGET_PDB = 01_file_operations.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_memory_management
+
+
+#############################################
+# Order-only phony target for 01_memory_management
+
+build cmake_object_order_depends_target_01_memory_management: phony || CMakeFiles/01_memory_management.dir
+
+build CMakeFiles/01_memory_management.dir/chapter_15/01_memory_management.c.obj: C_COMPILER__01_memory_management_unscanned_Debug D$:/Desktop/zongliang/learn_c/code/chapter_15/01_memory_management.c || cmake_object_order_depends_target_01_memory_management
+  DEP_FILE = CMakeFiles\01_memory_management.dir\chapter_15\01_memory_management.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_memory_management.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_memory_management.dir\chapter_15
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_memory_management
+
+
+#############################################
+# Link the executable 01_memory_management.exe
+
+build 01_memory_management.exe: C_EXECUTABLE_LINKER__01_memory_management_Debug CMakeFiles/01_memory_management.dir/chapter_15/01_memory_management.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01_memory_management.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_memory_management.exe
+  TARGET_IMPLIB = lib01_memory_management.dll.a
+  TARGET_PDB = 01_memory_management.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2200,11 +2365,17 @@ build 01_char_io: phony 01_char_io.exe
 
 build 01_code_reading: phony 01_code_reading.exe
 
+build 01_file_operations: phony 01_file_operations.exe
+
 build 01_function: phony 01_function.exe
 
 build 01_hello_c: phony 01_hello_c.exe
 
 build 01_if_statement: phony 01_if_statement.exe
+
+build 01_macro_definition: phony 01_macro_definition.exe
+
+build 01_memory_management: phony 01_memory_management.exe
 
 build 01_pointer: phony 01_pointer.exe
 
@@ -2228,6 +2399,8 @@ build 02_constant: phony 02_constant.exe
 
 build 02_do_while_loop: phony 02_do_while_loop.exe
 
+build 02_include: phony 02_include.exe
+
 build 02_mixed_operations: phony 02_mixed_operations.exe
 
 build 02_pointer_and_array: phony 02_pointer_and_array.exe
@@ -2243,6 +2416,8 @@ build 02_union_type: phony 02_union_type.exe
 build 03_char_array: phony 03_char_array.exe
 
 build 03_code_reading: phony 03_code_reading.exe
+
+build 03_conditional_compilation: phony 03_conditional_compilation.exe
 
 build 03_enum_type: phony 03_enum_type.exe
 
@@ -2326,7 +2501,7 @@ build coding_03: phony coding_03.exe
 #############################################
 # Folder: D:/Desktop/zongliang/learn_c/code/cmake-build-debug
 
-build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe 01_bit_and_byte.exe 02_bitwise_operators.exe 01_code_reading.exe 02_code_reading.exe 03_code_reading.exe code_filling_01.exe code_filling_02.exe coding_01.exe coding_02.exe coding_03.exe 06_selection_sort.exe 07_bubble_sort.exe 08_quick_sort.exe 09_insertion_sort.exe 10_binary_insertion_sort.exe
+build all: phony 01_hello_c.exe 01_print_datatype_scope.exe 02_mixed_operations.exe 01_auto_type_conversion.exe 02_arithmetic_operators.exe 03_relational_operators.exe 04_logical_operators.exe 05_comma_operator.exe 06_compound_operator.exe 01_char_io.exe 02_string_io.exe 03_format_output.exe 04_format_input.exe 02_constant.exe 03_variable.exe 04_auto_modifier.exe 05_static_modifier.exe 06_register_modifier.exe 07_extern_modifier_01.exe 08_extern_modifier_02.exe 07_conditional_operators.exe 01_if_statement.exe 02_switch_statement.exe 01_while_loop.exe 02_do_while_loop.exe 03_for_loop.exe 04_nested_loop.exe 01_1d_array.exe 02_2d_array.exe 03_char_array.exe 04_md_array.exe 05_transpose_array.exe 01_function.exe 02_static_function.exe 03_extern_function.exe 04_extern_function_02.exe 05_print_multiplication_table.exe 06_global_variable.exe 07_generally_used_functions.exe 05_local_variable.exe 01_pointer.exe 01_print_address.exe 02_pointer_and_array.exe 03_point_pointer.exe 04_swap_value.exe 05_return_pointer.exe 01_struct_type.exe 02_union_type.exe 03_enum_type.exe 01_bit_and_byte.exe 02_bitwise_operators.exe 01_code_reading.exe 02_code_reading.exe 03_code_reading.exe code_filling_01.exe code_filling_02.exe coding_01.exe coding_02.exe coding_03.exe 06_selection_sort.exe 07_bubble_sort.exe 08_quick_sort.exe 09_insertion_sort.exe 10_binary_insertion_sort.exe 01_macro_definition.exe 02_include.exe 03_conditional_compilation.exe 01_file_operations.exe 01_memory_management.exe
 
 # =============================================================================
 # Built-in targets
