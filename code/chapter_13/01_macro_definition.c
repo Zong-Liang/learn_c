@@ -7,7 +7,7 @@ int main() {
     printf(GREETING);
 #undef GREETING
     //    printf(GREETING);
-    
+
     int a = 6, b = 4;
     printf("%d\n", MIX(a, b));
 }

@@ -25,16 +25,16 @@ int main() {
 
     enum Season current_season = SUMMER;
     switch (current_season) {
-        case SPRING:
+        case 0:
             printf("SPRING\n");
             break;
-        case SUMMER:
+        case 1:
             printf("SUMMER\n");
             break;
-        case AUTUMN:
+        case 2:
             printf("SUMMER\n");
             break;
-        case WINTER:
+        case 3:
             printf("WINTER\n");
             break;
         default:

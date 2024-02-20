@@ -142,3 +142,9 @@
 5	216	7301219210938237	CMakeFiles/01_file_operations.dir/chapter_14/01_file_operations.c.obj	2819937196be8492
 2	185	7301222665762355	CMakeFiles/01_memory_management.dir/chapter_15/01_memory_management.c.obj	9923fe9a4f7c7592
 187	646	7301222670194958	01_memory_management.exe	d816286604a3cf0d
+5	1919	7301387106057894	CMakeFiles/02_union_type.dir/chapter_11/02_union_type.c.obj	1c59ebd68145e6d9
+1920	9517	7301387181975745	02_union_type.exe	81d9d9f0facc5d1d
+1	395	7301396346646631	CMakeFiles/01_macro_definition.dir/chapter_13/01_macro_definition.c.obj	85a5d29f9361a858
+397	798	7301396350486368	01_macro_definition.exe	2a57495b8fa8681
+4	225	7301405973235092	CMakeFiles/01_file_operations.dir/chapter_14/01_file_operations.c.obj	2819937196be8492
+226	642	7301405977265765	01_file_operations.exe	35b3a4462fb4c666

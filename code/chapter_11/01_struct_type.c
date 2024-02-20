@@ -6,11 +6,10 @@ struct Person {
     int age;
     float height;
 };
-
 //typedef struct Person P;
 
 int main() {
-    printf("%llu\n", strlen("China\n"));
+    //    printf("%llu\n", strlen("China\n"));
     //    P person_1;
     struct Person person_1;
 

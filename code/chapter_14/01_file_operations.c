@@ -14,6 +14,7 @@ int main() {
 
     FILE *fp_read, *fp_write;
     char read_filename[] = "../chapter_14/input.txt";
+    //    char read_filename[] = "D:\\Desktop\\zongliang\\learn_c\\code\\chapter_14\\input.txt";
     char write_filename[] = "../chapter_14/output.txt";
     char buffer[100];
 
